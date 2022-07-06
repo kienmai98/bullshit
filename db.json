@@ -1,0 +1,6131 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" },
+  "users": [
+    { "id": 1, "username": "test-atola", "email": "testatola@yopmail.com" }
+  ],
+  "providers": [
+    {
+      "name": "1Inch",
+      "inputValue": 1,
+      "txCost": "0.009643",
+      "approx": "13.15",
+      "decimalDollar": "2 742.12323",
+      "numberDollar": "2.741",
+      "percentLose": "0.03",
+      "isSelect": true
+    },
+    {
+      "name": "--/--",
+      "inputValue": 0,
+      "txCost": "0.009643",
+      "approx": "18.11",
+      "decimalDollar": "2 749.12323",
+      "numberDollar": "2.744",
+      "percentLose": "0.05",
+      "isSelect": false
+    }
+  ],
+  "networks": [
+    {
+      "id": 1,
+      "name": "Ethereum",
+      "path": "/network-icon/ethereum.svg",
+      "pathDisabled": "/network-disabled-icon/ethereum-disabled.svg"
+    },
+    {
+      "id": 2,
+      "name": "BNB Chain",
+      "path": "/network-icon/bsc_2.svg",
+      "pathDisabled": "/network-disabled-icon/binance-disabled_2.svg"
+    },
+    {
+      "id": 3,
+      "name": "Polygon",
+      "path": "/network-icon/polygon.svg",
+      "pathDisabled": "/network-disabled-icon/polygon-disabled.svg"
+    },
+    {
+      "id": 4,
+      "name": "Optimism",
+      "path": "/network-icon/optimism.svg",
+      "pathDisabled": "/network-disabled-icon/optimism-disabled.svg"
+    },
+    {
+      "id": 5,
+      "name": "Arbitrum",
+      "path": "/network-icon/arbitrum.svg",
+      "pathDisabled": "/network-disabled-icon/arbitrum-disabled.svg"
+    },
+    {
+      "id": 6,
+      "name": "Gnosis Chain",
+      "path": "/network-icon/gnosis.svg",
+      "pathDisabled": "/network-disabled-icon/gnosis-disabled.svg"
+    },
+    {
+      "id": 7,
+      "name": "Avalanche",
+      "path": "/network-icon/avalanche.svg",
+      "pathDisabled": "/network-disabled-icon/avalanche-disabled.svg"
+    }
+  ],
+  "wallets": [
+    {
+      "id": 1,
+      "name": "1INCH WalletConnect",
+      "path": "/wallet-icon/one-inch.svg",
+      "pathDisabled": "/wallet-disabled-icon/one-inch-disabled.svg"
+    },
+    {
+      "id": 2,
+      "name": "Web3",
+      "path": "/wallet-icon/web3.svg",
+      "pathDisabled": "/wallet-disabled-icon/web3-disabled.svg"
+    },
+    {
+      "id": 3,
+      "name": "WalletConnect",
+      "path": "/wallet-icon/wallet-connect.svg",
+      "pathDisabled": "/wallet-disabled-icon/wallet-connect-disabled.svg"
+    },
+    {
+      "id": 4,
+      "name": "Coinbase Wallet",
+      "path": "/wallet-icon/wallet-link.svg",
+      "pathDisabled": "/wallet-disabled-icon/wallet-link-disabled.svg"
+    },
+    {
+      "id": 5,
+      "name": "Ledger",
+      "path": "/wallet-icon/ledger_2.svg",
+      "pathDisabled": "/wallet-disabled-icon/ledger_2-disabled.svg"
+    },
+    {
+      "id": 6,
+      "name": "Trezor",
+      "path": "/wallet-icon/trezor.svg",
+      "pathDisabled": "/wallet-disabled-icon/trezor-disabled.svg"
+    },
+    {
+      "id": 7,
+      "name": "KeepKey",
+      "path": "/wallet-icon/keepKey.svg",
+      "pathDisabled": "/wallet-disabled-icon/keepKey-disabled.svg"
+    },
+    {
+      "id": 8,
+      "name": "CoolWallet",
+      "path": "/wallet-icon/cool-wallet.svg",
+      "pathDisabled": "/wallet-disabled-icon/cool-wallet-disabled.svg"
+    },
+    {
+      "id": 9,
+      "name": "Portis",
+      "path": "/wallet-icon/portis.svg",
+      "pathDisabled": "/wallet-disabled-icon/portis-disabled.svg"
+    },
+    {
+      "id": 10,
+      "name": "MEW",
+      "path": "/wallet-icon/mew.svg",
+      "pathDisabled": "/wallet-disabled-icon/mew-disabled.svg"
+    },
+    {
+      "id": 11,
+      "name": "Fortmatic",
+      "path": "/wallet-icon/fortmatic.svg",
+      "pathDisabled": "/wallet-disabled-icon/fortmatic-disabled.svg"
+    },
+    {
+      "id": 12,
+      "name": "Authereum",
+      "path": "/wallet-icon/authereum.svg",
+      "pathDisabled": "/wallet-disabled-icon/authereum-disabled.svg"
+    },
+    {
+      "id": 13,
+      "name": "Torus",
+      "path": "/wallet-icon/torus.svg",
+      "pathDisabled": "/wallet-disabled-icon/torus-disabled.svg"
+    },
+    {
+      "id": 14,
+      "name": "Bitski",
+      "path": "/wallet-icon/bitski.svg",
+      "pathDisabled": "/wallet-disabled-icon/bitski-disabled.svg"
+    },
+    {
+      "id": 15,
+      "name": "Binance Chain Wallet",
+      "path": "/wallet-icon/injected-binance.svg",
+      "pathDisabled": "/wallet-disabled-icon/injected-binance-disabled.svg"
+    },
+    {
+      "id": 16,
+      "name": "Venly",
+      "path": "/wallet-icon/arkane.svg",
+      "pathDisabled": "/wallet-disabled-icon/arkane-disabled.svg"
+    }
+  ],
+  "fiat": [
+    {
+      "id": 1,
+      "name": "United States dollar",
+      "symbol": "USD",
+      "path": "/fiat/dollar.png",
+      "favorite": 1
+    },
+    {
+      "id": 2,
+      "name": "Euro",
+      "symbol": "EUR",
+      "path": "/fiat/euro-currency-symbol.png",
+      "favorite": 0
+    },
+    {
+      "id": 3,
+      "name": "Pound",
+      "symbol": "BPM",
+      "path": "/fiat/pound-symbol-variant.png",
+      "favorite": 0
+    },
+    {
+      "id": 4,
+      "name": "Dirham",
+      "symbol": "AED",
+      "path": "/fiat/dirham.png",
+      "favorite": 1
+    }
+  ],
+  "stableToken": [
+    {
+      "id": 1,
+      "name": "ETH",
+      "path": "/token-list/ETH.webp",
+      "fullname": "Ethereum",
+      "favorite": 1
+    },
+    {
+      "id": 2,
+      "name": "USDC",
+      "path": "/token-list/USDC.webp",
+      "fullname": "USD Coin",
+      "favorite": 1
+    },
+    {
+      "id": 3,
+      "name": "DAI",
+      "path": "/token-list/DAI.webp",
+      "fullname": "Dai Stablecoin",
+      "favorite": 1
+    },
+    {
+      "id": 4,
+      "name": "USDT",
+      "path": "/token-list/USDT.webp",
+      "fullname": "Tether USD",
+      "favorite": 1
+    },
+    {
+      "id": 5,
+      "name": "WBTC",
+      "path": "/token-list/WBTC.webp",
+      "fullname": "Wrapped BTC",
+      "favorite": 1
+    },
+    {
+      "id": 6,
+      "name": "WETH",
+      "path": "/token-list/WETH.webp",
+      "fullname": "Wrapped Ether",
+      "favorite": 1
+    },
+    {
+      "id": 7,
+      "name": "sUSD",
+      "path": "/token-list/sUSD.webp",
+      "fullname": "Synth sUSD",
+      "favorite": 1
+    },
+    {
+      "id": 8,
+      "name": "BUSD",
+      "path": "/token-list/BUSD.webp",
+      "fullname": "Binance USD",
+      "favorite": 0
+    },
+    {
+      "id": 9,
+      "name": "LINK",
+      "path": "/token-list/LINK.webp",
+      "fullname": "Chain Link",
+      "favorite": 0
+    },
+    {
+      "id": 10,
+      "name": "CHI",
+      "path": "/token-list/CHI.webp",
+      "fullname": "Chi Gastoken by 1inch",
+      "favorite": 0
+    }
+  ],
+  "token-list": [
+    {
+      "name": "ETH",
+      "path": "/token-list/ETH.webp",
+      "fullname": "Ethereum",
+      "favorite": 1
+    },
+    {
+      "name": "USDC",
+      "path": "/token-list/USDC.webp",
+      "fullname": "USD Coin",
+      "favorite": 1
+    },
+    {
+      "name": "DAI",
+      "path": "/token-list/DAI.webp",
+      "fullname": "Dai Stablecoin",
+      "favorite": 1
+    },
+    {
+      "name": "USDT",
+      "path": "/token-list/USDT.webp",
+      "fullname": "Tether USD",
+      "favorite": 1
+    },
+    {
+      "name": "WBTC",
+      "path": "/token-list/WBTC.webp",
+      "fullname": "Wrapped BTC",
+      "favorite": 1
+    },
+    {
+      "name": "WETH",
+      "path": "/token-list/WETH.webp",
+      "fullname": "Wrapped Ether",
+      "favorite": 1
+    },
+    {
+      "name": "sUSD",
+      "path": "/token-list/sUSD.webp",
+      "fullname": "Synth sUSD",
+      "favorite": 1
+    },
+    {
+      "name": "BUSD",
+      "path": "/token-list/BUSD.webp",
+      "fullname": "Binance USD",
+      "favorite": 0
+    },
+    {
+      "name": "LINK",
+      "path": "/token-list/LINK.webp",
+      "fullname": "Chain Link",
+      "favorite": 0
+    },
+    {
+      "name": "CHI",
+      "path": "/token-list/CHI.webp",
+      "fullname": "Chi Gastoken by 1inch",
+      "favorite": 0
+    },
+    {
+      "name": "YFI",
+      "path": "/token-list/YFI.webp",
+      "fullname": "yearn.finance",
+      "favorite": 0
+    },
+    {
+      "name": "AAVE",
+      "path": "/token-list/AAVE.webp",
+      "fullname": "Aave Token",
+      "favorite": 0
+    },
+    {
+      "name": "GRT",
+      "path": "/token-list/GRT.webp",
+      "fullname": "Graph Token",
+      "favorite": 0
+    },
+    {
+      "name": "PEAK",
+      "path": "/token-list/PEAK.webp",
+      "fullname": "PEAKDEFI",
+      "favorite": 0
+    },
+    {
+      "name": "UNI",
+      "path": "/token-list/UNI.webp",
+      "fullname": "Uniswap",
+      "favorite": 0
+    },
+    {
+      "name": "SNX",
+      "path": "/token-list/SNX.webp",
+      "fullname": "Synthetix Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "SUSHI",
+      "path": "/token-list/SUSHI.webp",
+      "fullname": "SushiToken",
+      "favorite": 0
+    },
+    {
+      "name": "BADGER",
+      "path": "/token-list/BADGER.webp",
+      "fullname": "Badger",
+      "favorite": 0
+    },
+    {
+      "name": "CRV",
+      "path": "/token-list/CRV.webp",
+      "fullname": "Curve DAO Token",
+      "favorite": 0
+    },
+    {
+      "name": "AMPL",
+      "path": "/token-list/AMPL.webp",
+      "fullname": "Ampleforth",
+      "favorite": 0
+    },
+    {
+      "name": "BASE",
+      "path": "/token-list/BASE.webp",
+      "fullname": "Base Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "BNT",
+      "path": "/token-list/BNT.webp",
+      "fullname": "Bancor",
+      "favorite": 0
+    },
+    {
+      "name": "COMP",
+      "path": "/token-list/COMP.webp",
+      "fullname": "Compound",
+      "favorite": 0
+    },
+    {
+      "name": "KP3R",
+      "path": "/token-list/KP3R.webp",
+      "fullname": "Keep3rV1",
+      "favorite": 0
+    },
+    {
+      "name": "API3",
+      "path": "/token-list/API3.webp",
+      "fullname": "API3",
+      "favorite": 0
+    },
+    {
+      "name": "TUSD",
+      "path": "/token-list/TUSD.webp",
+      "fullname": "TrueUSD",
+      "favorite": 0
+    },
+    {
+      "name": "renBTC",
+      "path": "/token-list/renBTC.webp",
+      "fullname": "renBTC",
+      "favorite": 0
+    },
+    {
+      "name": "CEL",
+      "path": "/token-list/CEL.webp",
+      "fullname": "Celsius",
+      "favorite": 0
+    },
+    {
+      "name": "PRQ",
+      "path": "/token-list/PRQ.webp",
+      "fullname": "Parsiq Token",
+      "favorite": 0
+    },
+    {
+      "name": "POLS",
+      "path": "/token-list/POLS.webp",
+      "fullname": "PolkastarterToken",
+      "favorite": 0
+    },
+    {
+      "name": "$ANRX",
+      "path": "/token-list/$ANRX.webp",
+      "fullname": "AnRKey X",
+      "favorite": 0
+    },
+    {
+      "name": "$DG",
+      "path": "/token-list/$DG.webp",
+      "fullname": "decentral.games",
+      "favorite": 0
+    },
+    {
+      "name": "$ROPE",
+      "path": "/token-list/$ROPE.webp",
+      "fullname": "$ROPE",
+      "favorite": 0
+    },
+    {
+      "name": "$TRDL",
+      "path": "/token-list/$TRDL.webp",
+      "fullname": "Strudel Finance",
+      "favorite": 0
+    },
+    {
+      "name": "0xBTC",
+      "path": "/token-list/0xBTC.webp",
+      "fullname": "0xBitcoin Token",
+      "favorite": 0
+    },
+    {
+      "name": "0xMR",
+      "path": "/token-list/0xMR.webp",
+      "fullname": "0xMonero",
+      "favorite": 0
+    },
+    {
+      "name": "10SET",
+      "path": "/token-list/10SET.webp",
+      "fullname": "10Set Token",
+      "favorite": 0
+    },
+    {
+      "name": "1INCH",
+      "path": "/token-list/1INCH.webp",
+      "fullname": "1INCH Token",
+      "favorite": 0
+    },
+    {
+      "name": "1MIL",
+      "path": "/token-list/1MIL.webp",
+      "fullname": "1MILNFT",
+      "favorite": 0
+    },
+    {
+      "name": "2KEY",
+      "path": "/token-list/2KEY.webp",
+      "fullname": "2key.network",
+      "favorite": 0
+    },
+    {
+      "name": "8PAY",
+      "path": "/token-list/8PAY.webp",
+      "fullname": "8PAY Network",
+      "favorite": 0
+    },
+    {
+      "name": "aAAVE",
+      "path": "/token-list/aAAVE.webp",
+      "fullname": "Aave interest bearing AAVE",
+      "favorite": 0
+    },
+    {
+      "name": "aAAVEv1",
+      "path": "/token-list/aAAVEv1.webp",
+      "fullname": "Aave Interest bearing Aave Token",
+      "favorite": 0
+    },
+    {
+      "name": "aBAT",
+      "path": "/token-list/aBAT.webp",
+      "fullname": "Aave interest bearing BAT",
+      "favorite": 0
+    },
+    {
+      "name": "aBATv1",
+      "path": "/token-list/aBATv1.webp",
+      "fullname": "Aave Interest bearing BAT",
+      "favorite": 0
+    },
+    {
+      "name": "aBUSD",
+      "path": "/token-list/aBUSD.webp",
+      "fullname": "Aave interest bearing BUSD",
+      "favorite": 0
+    },
+    {
+      "name": "aBUSDv1",
+      "path": "/token-list/aBUSDv1.webp",
+      "fullname": "Aave Interest bearing Binance USD",
+      "favorite": 0
+    },
+    {
+      "name": "ABYSS",
+      "path": "/token-list/ABYSS.webp",
+      "fullname": "Abyss",
+      "favorite": 0
+    },
+    {
+      "name": "AC",
+      "path": "/token-list/AC.webp",
+      "fullname": "ACoconut",
+      "favorite": 0
+    },
+    {
+      "name": "ACCEL",
+      "path": "/token-list/ACCEL.webp",
+      "fullname": "ACCEL",
+      "favorite": 0
+    },
+    {
+      "name": "ACYC",
+      "path": "/token-list/ACYC.webp",
+      "fullname": "AllCoinsYieldCapital",
+      "favorite": 0
+    },
+    {
+      "name": "aDAI",
+      "path": "/token-list/aDAI.webp",
+      "fullname": "Aave interest bearing DAI",
+      "favorite": 0
+    },
+    {
+      "name": "aDAIv1",
+      "path": "/token-list/aDAIv1.webp",
+      "fullname": "Aave Interest bearing DAI",
+      "favorite": 0
+    },
+    {
+      "name": "ADX",
+      "path": "/token-list/ADX.webp",
+      "fullname": "AdEx Network",
+      "favorite": 0
+    },
+    {
+      "name": "aENJ",
+      "path": "/token-list/aENJ.webp",
+      "fullname": "Aave interest bearing ENJ",
+      "favorite": 0
+    },
+    {
+      "name": "aENJv1",
+      "path": "/token-list/aENJv1.webp",
+      "fullname": "Aave Interest bearing ENJ",
+      "favorite": 0
+    },
+    {
+      "name": "aETHc",
+      "path": "/token-list/aETHc.webp",
+      "fullname": "Ankr Eth2 Reward Bearing Bond",
+      "favorite": 0
+    },
+    {
+      "name": "aETHv1",
+      "path": "/token-list/aETHv1.webp",
+      "fullname": "Aave Interest bearing ETH",
+      "favorite": 0
+    },
+    {
+      "name": "agEUR",
+      "path": "/token-list/agEUR.webp",
+      "fullname": "agEUR",
+      "favorite": 0
+    },
+    {
+      "name": "AGIX",
+      "path": "/token-list/AGIX.webp",
+      "fullname": "SingularityNET Token",
+      "favorite": 0
+    },
+    {
+      "name": "AGRI",
+      "path": "/token-list/AGRI.webp",
+      "fullname": "AgriChain",
+      "favorite": 0
+    },
+    {
+      "name": "AGRS",
+      "path": "/token-list/AGRS.webp",
+      "fullname": "Agoras Token",
+      "favorite": 0
+    },
+    {
+      "name": "AIOZ",
+      "path": "/token-list/AIOZ.webp",
+      "fullname": "AIOZ Network",
+      "favorite": 0
+    },
+    {
+      "name": "AKITA",
+      "path": "/token-list/AKITA.webp",
+      "fullname": "Akita Inu",
+      "favorite": 0
+    },
+    {
+      "name": "aKNC",
+      "path": "/token-list/aKNC.webp",
+      "fullname": "Aave interest bearing KNC",
+      "favorite": 0
+    },
+    {
+      "name": "aKNCv1",
+      "path": "/token-list/aKNCv1.webp",
+      "fullname": "Aave Interest bearing KNC",
+      "favorite": 0
+    },
+    {
+      "name": "AKRO",
+      "path": "/token-list/AKRO.webp",
+      "fullname": "Akropolis",
+      "favorite": 0
+    },
+    {
+      "name": "ALBT",
+      "path": "/token-list/ALBT.webp",
+      "fullname": "AllianceBlock Token",
+      "favorite": 0
+    },
+    {
+      "name": "ALCX",
+      "path": "/token-list/ALCX.webp",
+      "fullname": "Alchemix",
+      "favorite": 0
+    },
+    {
+      "name": "aLENDv1",
+      "path": "/token-list/aLENDv1.webp",
+      "fullname": "Aave Interest bearing LEND",
+      "favorite": 0
+    },
+    {
+      "name": "ALEPH",
+      "path": "/token-list/ALEPH.webp",
+      "fullname": "aleph.im v2",
+      "favorite": 0
+    },
+    {
+      "name": "ALICE",
+      "path": "/token-list/ALICE.webp",
+      "fullname": "ALICE",
+      "favorite": 0
+    },
+    {
+      "name": "aLINK",
+      "path": "/token-list/aLINK.webp",
+      "fullname": "Aave interest bearing LINK",
+      "favorite": 0
+    },
+    {
+      "name": "aLINKv1",
+      "path": "/token-list/aLINKv1.webp",
+      "fullname": "Aave Interest bearing LINK",
+      "favorite": 0
+    },
+    {
+      "name": "ALN",
+      "path": "/token-list/ALN.webp",
+      "fullname": "Aluna",
+      "favorite": 0
+    },
+    {
+      "name": "ALPA",
+      "path": "/token-list/ALPA.webp",
+      "fullname": "AlpaToken",
+      "favorite": 0
+    },
+    {
+      "name": "ALPHA",
+      "path": "/token-list/ALPHA.webp",
+      "fullname": "AlphaToken",
+      "favorite": 0
+    },
+    {
+      "name": "ALPHA_1",
+      "path": "/token-list/ALPHA_1.webp",
+      "fullname": "Alpha",
+      "favorite": 0
+    },
+    {
+      "name": "alUSD",
+      "path": "/token-list/alUSD.webp",
+      "fullname": "Alchemix USD",
+      "favorite": 0
+    },
+    {
+      "name": "aMANA",
+      "path": "/token-list/aMANA.webp",
+      "fullname": "Aave interest bearing MANA",
+      "favorite": 0
+    },
+    {
+      "name": "aMANAv1",
+      "path": "/token-list/aMANAv1.webp",
+      "fullname": "Aave Interest bearing MANA",
+      "favorite": 0
+    },
+    {
+      "name": "aMKR",
+      "path": "/token-list/aMKR.webp",
+      "fullname": "Aave interest bearing MKR",
+      "favorite": 0
+    },
+    {
+      "name": "aMKRv1",
+      "path": "/token-list/aMKRv1.webp",
+      "fullname": "Aave Interest bearing MKR",
+      "favorite": 0
+    },
+    {
+      "name": "AMLT",
+      "path": "/token-list/AMLT.webp",
+      "fullname": "AMLT",
+      "favorite": 0
+    },
+    {
+      "name": "AMN",
+      "path": "/token-list/AMN.webp",
+      "fullname": "Amon",
+      "favorite": 0
+    },
+    {
+      "name": "AMP",
+      "path": "/token-list/AMP.webp",
+      "fullname": "Amp",
+      "favorite": 0
+    },
+    {
+      "name": "ANGLE",
+      "path": "/token-list/ANGLE.webp",
+      "fullname": "ANGLE",
+      "favorite": 0
+    },
+    {
+      "name": "ANJ",
+      "path": "/token-list/ANJ.webp",
+      "fullname": "Aragon Network Juror",
+      "favorite": 0
+    },
+    {
+      "name": "ANKR",
+      "path": "/token-list/ANKR.webp",
+      "fullname": "Ankr Network",
+      "favorite": 0
+    },
+    {
+      "name": "ANTv1",
+      "path": "/token-list/ANTv1.webp",
+      "fullname": "Aragon Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "ANY",
+      "path": "/token-list/ANY.webp",
+      "fullname": "Anyswap",
+      "favorite": 0
+    },
+    {
+      "name": "APE",
+      "path": "/token-list/APE.webp",
+      "fullname": "ApeCoin",
+      "favorite": 0
+    },
+    {
+      "name": "APW",
+      "path": "/token-list/APW.webp",
+      "fullname": "APWine Token",
+      "favorite": 0
+    },
+    {
+      "name": "APY",
+      "path": "/token-list/APY.webp",
+      "fullname": "APY Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "ARA",
+      "path": "/token-list/ARA.webp",
+      "fullname": "Ara Token",
+      "favorite": 0
+    },
+    {
+      "name": "ARCH",
+      "path": "/token-list/ARCH.webp",
+      "fullname": "Archer DAO Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "ARCONA",
+      "path": "/token-list/ARCONA.webp",
+      "fullname": "Arcona Distribution Contract",
+      "favorite": 0
+    },
+    {
+      "name": "ARCX",
+      "path": "/token-list/ARCX.webp",
+      "fullname": "ARCx Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "ARCX_OLD",
+      "path": "/token-list/ARCX_OLD.webp",
+      "fullname": "ARC Governance Token (Old)",
+      "favorite": 0
+    },
+    {
+      "name": "aRENv1",
+      "path": "/token-list/aRENv1.webp",
+      "fullname": "Aave Interest bearing REN",
+      "favorite": 0
+    },
+    {
+      "name": "aREPv1",
+      "path": "/token-list/aREPv1.webp",
+      "fullname": "Aave Interest bearing REP",
+      "favorite": 0
+    },
+    {
+      "name": "ARES",
+      "path": "/token-list/ARES.webp",
+      "fullname": "Ares Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "ARMOR",
+      "path": "/token-list/ARMOR.webp",
+      "fullname": "Armor",
+      "favorite": 0
+    },
+    {
+      "name": "arNXM",
+      "path": "/token-list/arNXM.webp",
+      "fullname": "Armor NXM",
+      "favorite": 0
+    },
+    {
+      "name": "arte",
+      "path": "/token-list/arte.webp",
+      "fullname": "ethart",
+      "favorite": 0
+    },
+    {
+      "name": "ASKO",
+      "path": "/token-list/ASKO.webp",
+      "fullname": "Askobar Network",
+      "favorite": 0
+    },
+    {
+      "name": "aSNX",
+      "path": "/token-list/aSNX.webp",
+      "fullname": "Aave interest bearing SNX",
+      "favorite": 0
+    },
+    {
+      "name": "aSNXv1",
+      "path": "/token-list/aSNXv1.webp",
+      "fullname": "Aave Interest bearing SNX",
+      "favorite": 0
+    },
+    {
+      "name": "AST",
+      "path": "/token-list/AST.webp",
+      "fullname": "AirSwap",
+      "favorite": 0
+    },
+    {
+      "name": "ASTRO",
+      "path": "/token-list/ASTRO.webp",
+      "fullname": "AstroTools.io",
+      "favorite": 0
+    },
+    {
+      "name": "aSUSD",
+      "path": "/token-list/aSUSD.webp",
+      "fullname": "Aave interest bearing SUSD",
+      "favorite": 0
+    },
+    {
+      "name": "aSUSDv1",
+      "path": "/token-list/aSUSDv1.webp",
+      "fullname": "Aave Interest bearing SUSD",
+      "favorite": 0
+    },
+    {
+      "name": "ATIS",
+      "path": "/token-list/ATIS.webp",
+      "fullname": "ATIS Token",
+      "favorite": 0
+    },
+    {
+      "name": "ATRI",
+      "path": "/token-list/ATRI.webp",
+      "fullname": "AtariToken",
+      "favorite": 0
+    },
+    {
+      "name": "aTUSD",
+      "path": "/token-list/aTUSD.webp",
+      "fullname": "Aave interest bearing TUSD",
+      "favorite": 0
+    },
+    {
+      "name": "aTUSDv1",
+      "path": "/token-list/aTUSDv1.webp",
+      "fullname": "Aave Interest bearing TUSD",
+      "favorite": 0
+    },
+    {
+      "name": "AUC",
+      "path": "/token-list/AUC.webp",
+      "fullname": "Auctus",
+      "favorite": 0
+    },
+    {
+      "name": "Auction",
+      "path": "/token-list/Auction.webp",
+      "fullname": "Bounce Token",
+      "favorite": 0
+    },
+    {
+      "name": "AUDIO",
+      "path": "/token-list/AUDIO.webp",
+      "fullname": "Audius",
+      "favorite": 0
+    },
+    {
+      "name": "aUNI",
+      "path": "/token-list/aUNI.webp",
+      "fullname": "Aave interest bearing UNI",
+      "favorite": 0
+    },
+    {
+      "name": "aUNIv1",
+      "path": "/token-list/aUNIv1.webp",
+      "fullname": "Aave Interest bearing Uniswap",
+      "favorite": 0
+    },
+    {
+      "name": "AURORA",
+      "path": "/token-list/AURORA.webp",
+      "fullname": "Aurora",
+      "favorite": 0
+    },
+    {
+      "name": "aUSDC",
+      "path": "/token-list/aUSDC.webp",
+      "fullname": "Aave interest bearing USDC",
+      "favorite": 0
+    },
+    {
+      "name": "aUSDCv1",
+      "path": "/token-list/aUSDCv1.webp",
+      "fullname": "Aave Interest bearing USDC",
+      "favorite": 0
+    },
+    {
+      "name": "aUSDT",
+      "path": "/token-list/aUSDT.webp",
+      "fullname": "Aave interest bearing USDT",
+      "favorite": 0
+    },
+    {
+      "name": "aUSDTv1",
+      "path": "/token-list/aUSDTv1.webp",
+      "fullname": "Aave Interest bearing USDT",
+      "favorite": 0
+    },
+    {
+      "name": "AVINOC",
+      "path": "/token-list/AVINOC.webp",
+      "fullname": "AVINOC Token",
+      "favorite": 0
+    },
+    {
+      "name": "aWBTC",
+      "path": "/token-list/aWBTC.webp",
+      "fullname": "Aave interest bearing WBTC",
+      "favorite": 0
+    },
+    {
+      "name": "aWBTCv1",
+      "path": "/token-list/aWBTCv1.webp",
+      "fullname": "Aave Interest bearing WBTC",
+      "favorite": 0
+    },
+    {
+      "name": "aWETH",
+      "path": "/token-list/aWETH.webp",
+      "fullname": "Aave interest bearing WETH",
+      "favorite": 0
+    },
+    {
+      "name": "AXS",
+      "path": "/token-list/AXS.webp",
+      "fullname": "Axie Infinity Shard",
+      "favorite": 0
+    },
+    {
+      "name": "aYFI",
+      "path": "/token-list/aYFI.webp",
+      "fullname": "Aave interest bearing YFI",
+      "favorite": 0
+    },
+    {
+      "name": "aYFIv1",
+      "path": "/token-list/aYFIv1.webp",
+      "fullname": "Aave Interest bearing YFI",
+      "favorite": 0
+    },
+    {
+      "name": "aZRX",
+      "path": "/token-list/aZRX.webp",
+      "fullname": "Aave interest bearing ZRX",
+      "favorite": 0
+    },
+    {
+      "name": "aZRXv1",
+      "path": "/token-list/aZRXv1.webp",
+      "fullname": "Aave Interest bearing ZRX",
+      "favorite": 0
+    },
+    {
+      "name": "AZUKI",
+      "path": "/token-list/AZUKI.webp",
+      "fullname": "DokiDokiAzuki",
+      "favorite": 0
+    },
+    {
+      "name": "B20",
+      "path": "/token-list/B20.webp",
+      "fullname": "B.20",
+      "favorite": 0
+    },
+    {
+      "name": "BAC",
+      "path": "/token-list/BAC.webp",
+      "fullname": "BAC",
+      "favorite": 0
+    },
+    {
+      "name": "BAG",
+      "path": "/token-list/BAG.webp",
+      "fullname": "BAG",
+      "favorite": 0
+    },
+    {
+      "name": "BAL",
+      "path": "/token-list/BAL.webp",
+      "fullname": "Balancer",
+      "favorite": 0
+    },
+    {
+      "name": "bALPHA",
+      "path": "/token-list/bALPHA.webp",
+      "fullname": "bAlpha",
+      "favorite": 0
+    },
+    {
+      "name": "BAND",
+      "path": "/token-list/BAND.webp",
+      "fullname": "Band Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "BANK",
+      "path": "/token-list/BANK.webp",
+      "fullname": "Float Bank",
+      "favorite": 0
+    },
+    {
+      "name": "BANK_BANKLESS",
+      "path": "/token-list/BANK_BANKLESS.webp",
+      "fullname": "Bankless Token",
+      "favorite": 0
+    },
+    {
+      "name": "BAO",
+      "path": "/token-list/BAO.webp",
+      "fullname": "BaoToken",
+      "favorite": 0
+    },
+    {
+      "name": "BASK",
+      "path": "/token-list/BASK.webp",
+      "fullname": "BasketDAO Gov",
+      "favorite": 0
+    },
+    {
+      "name": "BASv2",
+      "path": "/token-list/BASv2.webp",
+      "fullname": "BASv2",
+      "favorite": 0
+    },
+    {
+      "name": "BAT",
+      "path": "/token-list/BAT.webp",
+      "fullname": "Basic Attention Token",
+      "favorite": 0
+    },
+    {
+      "name": "BBS",
+      "path": "/token-list/BBS.webp",
+      "fullname": "BBS",
+      "favorite": 0
+    },
+    {
+      "name": "BBTC",
+      "path": "/token-list/BBTC.webp",
+      "fullname": "Binance Wrapped BTC",
+      "favorite": 0
+    },
+    {
+      "name": "BCDT",
+      "path": "/token-list/BCDT.webp",
+      "fullname": "Blockchain Certified Data Token",
+      "favorite": 0
+    },
+    {
+      "name": "BCP",
+      "path": "/token-list/BCP.webp",
+      "fullname": "BitcashPay",
+      "favorite": 0
+    },
+    {
+      "name": "BCUG",
+      "path": "/token-list/BCUG.webp",
+      "fullname": "Blockchain Cuties Universe Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "BDP",
+      "path": "/token-list/BDP.webp",
+      "fullname": "BDPToken",
+      "favorite": 0
+    },
+    {
+      "name": "BEAN",
+      "path": "/token-list/BEAN.webp",
+      "fullname": "Bean",
+      "favorite": 0
+    },
+    {
+      "name": "BEPRO",
+      "path": "/token-list/BEPRO.webp",
+      "fullname": "BetProtocolToken",
+      "favorite": 0
+    },
+    {
+      "name": "BEZOGE",
+      "path": "/token-list/BEZOGE.webp",
+      "fullname": "Bezoge Earth",
+      "favorite": 0
+    },
+    {
+      "name": "BFC",
+      "path": "/token-list/BFC.webp",
+      "fullname": "Bifrost",
+      "favorite": 0
+    },
+    {
+      "name": "BFLY",
+      "path": "/token-list/BFLY.webp",
+      "fullname": "Butterfly Protocol Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "BID",
+      "path": "/token-list/BID.webp",
+      "fullname": "Bidao",
+      "favorite": 0
+    },
+    {
+      "name": "BiFi",
+      "path": "/token-list/BiFi.webp",
+      "fullname": "BiFi",
+      "favorite": 0
+    },
+    {
+      "name": "BIRD",
+      "path": "/token-list/BIRD.webp",
+      "fullname": "Bird.Money",
+      "favorite": 0
+    },
+    {
+      "name": "BLANK",
+      "path": "/token-list/BLANK.webp",
+      "fullname": "GoBlank Token",
+      "favorite": 0
+    },
+    {
+      "name": "BLES",
+      "path": "/token-list/BLES.webp",
+      "fullname": "Blind Boxes Token",
+      "favorite": 0
+    },
+    {
+      "name": "BLZ",
+      "path": "/token-list/BLZ.webp",
+      "fullname": "Bluzelle",
+      "favorite": 0
+    },
+    {
+      "name": "BMI",
+      "path": "/token-list/BMI.webp",
+      "fullname": "Bridge Mutual",
+      "favorite": 0
+    },
+    {
+      "name": "BNF",
+      "path": "/token-list/BNF.webp",
+      "fullname": "BonFi",
+      "favorite": 0
+    },
+    {
+      "name": "BOND",
+      "path": "/token-list/BOND.webp",
+      "fullname": "BarnBridge Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "BOND_finance",
+      "path": "/token-list/BOND_finance.webp",
+      "fullname": "bonded.finance",
+      "favorite": 0
+    },
+    {
+      "name": "BONDLY",
+      "path": "/token-list/BONDLY.webp",
+      "fullname": "Bondly",
+      "favorite": 0
+    },
+    {
+      "name": "BOOST",
+      "path": "/token-list/BOOST.webp",
+      "fullname": "Boosted Finance",
+      "favorite": 0
+    },
+    {
+      "name": "BORING",
+      "path": "/token-list/BORING.webp",
+      "fullname": "BoringDAO",
+      "favorite": 0
+    },
+    {
+      "name": "BOSON",
+      "path": "/token-list/BOSON.webp",
+      "fullname": "Boson Token",
+      "favorite": 0
+    },
+    {
+      "name": "BOTS",
+      "path": "/token-list/BOTS.webp",
+      "fullname": "Bot Ocean",
+      "favorite": 0
+    },
+    {
+      "name": "BSL",
+      "path": "/token-list/BSL.webp",
+      "fullname": "BankSocial",
+      "favorite": 0
+    },
+    {
+      "name": "BST",
+      "path": "/token-list/BST.webp",
+      "fullname": "BlocksquareToken",
+      "favorite": 0
+    },
+    {
+      "name": "BT",
+      "path": "/token-list/BT.webp",
+      "fullname": "BT.Finance",
+      "favorite": 0
+    },
+    {
+      "name": "BTC++",
+      "path": "/token-list/BTC++.webp",
+      "fullname": "PieDAO BTC++",
+      "favorite": 0
+    },
+    {
+      "name": "BTC2x-FLI",
+      "path": "/token-list/BTC2x-FLI.webp",
+      "fullname": "BTC 2x Flexible Leverage Index",
+      "favorite": 0
+    },
+    {
+      "name": "BTCV",
+      "path": "/token-list/BTCV.webp",
+      "fullname": "BTC Volatility Index",
+      "favorite": 0
+    },
+    {
+      "name": "BTMX",
+      "path": "/token-list/BTMX.webp",
+      "fullname": "BitMax token",
+      "favorite": 0
+    },
+    {
+      "name": "BTSG",
+      "path": "/token-list/BTSG.webp",
+      "fullname": "BitSong",
+      "favorite": 0
+    },
+    {
+      "name": "buidl_1",
+      "path": "/token-list/buidl_1.webp",
+      "fullname": "dfohub",
+      "favorite": 0
+    },
+    {
+      "name": "BUIDL_2",
+      "path": "/token-list/BUIDL_2.webp",
+      "fullname": "DFOHub",
+      "favorite": 0
+    },
+    {
+      "name": "BUILD",
+      "path": "/token-list/BUILD.webp",
+      "fullname": "BUILD Finance",
+      "favorite": 0
+    },
+    {
+      "name": "BUND",
+      "path": "/token-list/BUND.webp",
+      "fullname": "Bundles",
+      "favorite": 0
+    },
+    {
+      "name": "BZRX",
+      "path": "/token-list/BZRX.webp",
+      "fullname": "bZx Protocol Token",
+      "favorite": 0
+    },
+    {
+      "name": "CADC",
+      "path": "/token-list/CADC.webp",
+      "fullname": "CAD Coin",
+      "favorite": 0
+    },
+    {
+      "name": "CAP",
+      "path": "/token-list/CAP.webp",
+      "fullname": "Cap",
+      "favorite": 0
+    },
+    {
+      "name": "CARDS",
+      "path": "/token-list/CARDS.webp",
+      "fullname": "CARD.STARTER",
+      "favorite": 0
+    },
+    {
+      "name": "CATE",
+      "path": "/token-list/CATE.webp",
+      "fullname": "Cash Tech",
+      "favorite": 0
+    },
+    {
+      "name": "CAVA",
+      "path": "/token-list/CAVA.webp",
+      "fullname": "Cavapoo",
+      "favorite": 0
+    },
+    {
+      "name": "CBIX7",
+      "path": "/token-list/CBIX7.webp",
+      "fullname": "CBI Index 7",
+      "favorite": 0
+    },
+    {
+      "name": "cDAI",
+      "path": "/token-list/cDAI.webp",
+      "fullname": "Compound Dai",
+      "favorite": 0
+    },
+    {
+      "name": "CEEK",
+      "path": "/token-list/CEEK.webp",
+      "fullname": "CEEK VR",
+      "favorite": 0
+    },
+    {
+      "name": "CELL",
+      "path": "/token-list/CELL.webp",
+      "fullname": "Cellframe Token",
+      "favorite": 0
+    },
+    {
+      "name": "cETH",
+      "path": "/token-list/cETH.webp",
+      "fullname": "Compound ETH",
+      "favorite": 0
+    },
+    {
+      "name": "CFi",
+      "path": "/token-list/CFi.webp",
+      "fullname": "CyberFi Token",
+      "favorite": 0
+    },
+    {
+      "name": "CGG",
+      "path": "/token-list/CGG.webp",
+      "fullname": "ChainGuardians Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "CGT",
+      "path": "/token-list/CGT.webp",
+      "fullname": "CACHE Gold",
+      "favorite": 0
+    },
+    {
+      "name": "CHAI",
+      "path": "/token-list/CHAI.webp",
+      "fullname": "Chai Token",
+      "favorite": 0
+    },
+    {
+      "name": "CHAIN",
+      "path": "/token-list/CHAIN.webp",
+      "fullname": "Chain Games",
+      "favorite": 0
+    },
+    {
+      "name": "CHART",
+      "path": "/token-list/CHART.webp",
+      "fullname": "ChartEx",
+      "favorite": 0
+    },
+    {
+      "name": "CHOPPER",
+      "path": "/token-list/CHOPPER.webp",
+      "fullname": "CHOPPER INU",
+      "favorite": 0
+    },
+    {
+      "name": "CHZ",
+      "path": "/token-list/CHZ.webp",
+      "fullname": "chiliZ",
+      "favorite": 0
+    },
+    {
+      "name": "CIV",
+      "path": "/token-list/CIV.webp",
+      "fullname": "Civilization",
+      "favorite": 0
+    },
+    {
+      "name": "CMERGE",
+      "path": "/token-list/CMERGE.webp",
+      "fullname": "Coin Merge",
+      "favorite": 0
+    },
+    {
+      "name": "CND",
+      "path": "/token-list/CND.webp",
+      "fullname": "Cindicator",
+      "favorite": 0
+    },
+    {
+      "name": "COMBO",
+      "path": "/token-list/COMBO.webp",
+      "fullname": "Furucombo",
+      "favorite": 0
+    },
+    {
+      "name": "CONV",
+      "path": "/token-list/CONV.webp",
+      "fullname": "Convergence",
+      "favorite": 0
+    },
+    {
+      "name": "COOK",
+      "path": "/token-list/COOK.webp",
+      "fullname": "Cook Token",
+      "favorite": 0
+    },
+    {
+      "name": "CORE",
+      "path": "/token-list/CORE.webp",
+      "fullname": "cVault.finance",
+      "favorite": 0
+    },
+    {
+      "name": "COT",
+      "path": "/token-list/COT.webp",
+      "fullname": "CoTrader",
+      "favorite": 0
+    },
+    {
+      "name": "COTI",
+      "path": "/token-list/COTI.webp",
+      "fullname": "COTI Token",
+      "favorite": 0
+    },
+    {
+      "name": "Coval",
+      "path": "/token-list/Coval.webp",
+      "fullname": "CircuitsOfValue",
+      "favorite": 0
+    },
+    {
+      "name": "COVER",
+      "path": "/token-list/COVER.webp",
+      "fullname": "Cover Protocol Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "COVER_v1",
+      "path": "/token-list/COVER_v1.webp",
+      "fullname": "Cover Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "cr1INCH",
+      "path": "/token-list/cr1INCH.webp",
+      "fullname": "Cream 1INCH Token",
+      "favorite": 0
+    },
+    {
+      "name": "crAAVE",
+      "path": "/token-list/crAAVE.webp",
+      "fullname": "Cream AAVE Token",
+      "favorite": 0
+    },
+    {
+      "name": "crAKRO",
+      "path": "/token-list/crAKRO.webp",
+      "fullname": "Cream Akropolis",
+      "favorite": 0
+    },
+    {
+      "name": "crALPHA",
+      "path": "/token-list/crALPHA.webp",
+      "fullname": "Cream AlphaToken",
+      "favorite": 0
+    },
+    {
+      "name": "crAMP",
+      "path": "/token-list/crAMP.webp",
+      "fullname": "Cream Amp",
+      "favorite": 0
+    },
+    {
+      "name": "crBAC",
+      "path": "/token-list/crBAC.webp",
+      "fullname": "Cream Basis Cash",
+      "favorite": 0
+    },
+    {
+      "name": "crBAL",
+      "path": "/token-list/crBAL.webp",
+      "fullname": "Cream Balancer",
+      "favorite": 0
+    },
+    {
+      "name": "crBBADGER",
+      "path": "/token-list/crBBADGER.webp",
+      "fullname": "Cream Badger Sett Badger",
+      "favorite": 0
+    },
+    {
+      "name": "crBBTC",
+      "path": "/token-list/crBBTC.webp",
+      "fullname": "Cream Binance Wrapped BTC",
+      "favorite": 0
+    },
+    {
+      "name": "crBOND",
+      "path": "/token-list/crBOND.webp",
+      "fullname": "Cream BarnBridge Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "crBUSD",
+      "path": "/token-list/crBUSD.webp",
+      "fullname": "Cream Binance USD",
+      "favorite": 0
+    },
+    {
+      "name": "crCEL",
+      "path": "/token-list/crCEL.webp",
+      "fullname": "Cream Celsius",
+      "favorite": 0
+    },
+    {
+      "name": "crCOMP",
+      "path": "/token-list/crCOMP.webp",
+      "fullname": "Cream Compound",
+      "favorite": 0
+    },
+    {
+      "name": "crCOVER",
+      "path": "/token-list/crCOVER.webp",
+      "fullname": "Cream Cover Protocol Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "crCRV",
+      "path": "/token-list/crCRV.webp",
+      "fullname": "Cream CRV",
+      "favorite": 0
+    },
+    {
+      "name": "CRD",
+      "path": "/token-list/CRD.webp",
+      "fullname": "CryptalDash",
+      "favorite": 0
+    },
+    {
+      "name": "crDAI",
+      "path": "/token-list/crDAI.webp",
+      "fullname": "Cream Dai Stablecoin",
+      "favorite": 0
+    },
+    {
+      "name": "crDPI",
+      "path": "/token-list/crDPI.webp",
+      "fullname": "Cream DefiPulse Index",
+      "favorite": 0
+    },
+    {
+      "name": "CREAM",
+      "path": "/token-list/CREAM.webp",
+      "fullname": "Cream",
+      "favorite": 0
+    },
+    {
+      "name": "crESD",
+      "path": "/token-list/crESD.webp",
+      "fullname": "Cream Empty Set Dollar",
+      "favorite": 0
+    },
+    {
+      "name": "crETH",
+      "path": "/token-list/crETH.webp",
+      "fullname": "Cream Ether",
+      "favorite": 0
+    },
+    {
+      "name": "crFRAX",
+      "path": "/token-list/crFRAX.webp",
+      "fullname": "Cream Frax",
+      "favorite": 0
+    },
+    {
+      "name": "crHEGIC",
+      "path": "/token-list/crHEGIC.webp",
+      "fullname": "Cream FTX Token",
+      "favorite": 0
+    },
+    {
+      "name": "crHUSD",
+      "path": "/token-list/crHUSD.webp",
+      "fullname": "Cream HUSD",
+      "favorite": 0
+    },
+    {
+      "name": "crKP3R",
+      "path": "/token-list/crKP3R.webp",
+      "fullname": "Cream Keep3rV1",
+      "favorite": 0
+    },
+    {
+      "name": "crLEND",
+      "path": "/token-list/crLEND.webp",
+      "fullname": "Cream EthLend Token",
+      "favorite": 0
+    },
+    {
+      "name": "crLINK",
+      "path": "/token-list/crLINK.webp",
+      "fullname": "Cream ChainLink Token",
+      "favorite": 0
+    },
+    {
+      "name": "crMTA",
+      "path": "/token-list/crMTA.webp",
+      "fullname": "Cream Meta",
+      "favorite": 0
+    },
+    {
+      "name": "CRO",
+      "path": "/token-list/CRO.webp",
+      "fullname": "CRO",
+      "favorite": 0
+    },
+    {
+      "name": "crOGN",
+      "path": "/token-list/crOGN.webp",
+      "fullname": "Cream OriginToken",
+      "favorite": 0
+    },
+    {
+      "name": "crOMG",
+      "path": "/token-list/crOMG.webp",
+      "fullname": "Cream OMGToken",
+      "favorite": 0
+    },
+    {
+      "name": "crPICKLE",
+      "path": "/token-list/crPICKLE.webp",
+      "fullname": "Cream PickleToken",
+      "favorite": 0
+    },
+    {
+      "name": "crRENBTC",
+      "path": "/token-list/crRENBTC.webp",
+      "fullname": "Cream renBTC",
+      "favorite": 0
+    },
+    {
+      "name": "crSNX",
+      "path": "/token-list/crSNX.webp",
+      "fullname": "Cream Synthetix Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "crSRM",
+      "path": "/token-list/crSRM.webp",
+      "fullname": "Cream Serum",
+      "favorite": 0
+    },
+    {
+      "name": "crSUSD",
+      "path": "/token-list/crSUSD.webp",
+      "fullname": "Cream Synth sUSD",
+      "favorite": 0
+    },
+    {
+      "name": "crSUSHI",
+      "path": "/token-list/crSUSHI.webp",
+      "fullname": "Cream SushiToken",
+      "favorite": 0
+    },
+    {
+      "name": "crSWAG",
+      "path": "/token-list/crSWAG.webp",
+      "fullname": "Cream Swag Token",
+      "favorite": 0
+    },
+    {
+      "name": "crTBTC",
+      "path": "/token-list/crTBTC.webp",
+      "fullname": "Cream tBTC",
+      "favorite": 0
+    },
+    {
+      "name": "CRU",
+      "path": "/token-list/CRU.webp",
+      "fullname": "CRUST",
+      "favorite": 0
+    },
+    {
+      "name": "crUNI",
+      "path": "/token-list/crUNI.webp",
+      "fullname": "Cream Uniswap",
+      "favorite": 0
+    },
+    {
+      "name": "crUSDC",
+      "path": "/token-list/crUSDC.webp",
+      "fullname": "Cream USD Coin",
+      "favorite": 0
+    },
+    {
+      "name": "crUSDT",
+      "path": "/token-list/crUSDT.webp",
+      "fullname": "Cream USDT",
+      "favorite": 0
+    },
+    {
+      "name": "crWBTC",
+      "path": "/token-list/crWBTC.webp",
+      "fullname": "Cream Wrapped BTC",
+      "favorite": 0
+    },
+    {
+      "name": "crWNXM",
+      "path": "/token-list/crWNXM.webp",
+      "fullname": "Cream Wrapped NXM",
+      "favorite": 0
+    },
+    {
+      "name": "crXSUSHI",
+      "path": "/token-list/crXSUSHI.webp",
+      "fullname": "Cream SushiBar",
+      "favorite": 0
+    },
+    {
+      "name": "crYCRV",
+      "path": "/token-list/crYCRV.webp",
+      "fullname": "Cream yCRV",
+      "favorite": 0
+    },
+    {
+      "name": "crYFI",
+      "path": "/token-list/crYFI.webp",
+      "fullname": "Cream YFI",
+      "favorite": 0
+    },
+    {
+      "name": "crYYCRV",
+      "path": "/token-list/crYYCRV.webp",
+      "fullname": "Cream yyCRV",
+      "favorite": 0
+    },
+    {
+      "name": "cSAI",
+      "path": "/token-list/cSAI.webp",
+      "fullname": "Compound Sai",
+      "favorite": 0
+    },
+    {
+      "name": "CTASK",
+      "path": "/token-list/CTASK.webp",
+      "fullname": "CTASK Token",
+      "favorite": 0
+    },
+    {
+      "name": "CTSI",
+      "path": "/token-list/CTSI.webp",
+      "fullname": "Cartesi Token",
+      "favorite": 0
+    },
+    {
+      "name": "CTX",
+      "path": "/token-list/CTX.webp",
+      "fullname": "Cryptex",
+      "favorite": 0
+    },
+    {
+      "name": "CUDOS",
+      "path": "/token-list/CUDOS.webp",
+      "fullname": "CudosToken",
+      "favorite": 0
+    },
+    {
+      "name": "cUNI",
+      "path": "/token-list/cUNI.webp",
+      "fullname": "Compound Uniswap",
+      "favorite": 0
+    },
+    {
+      "name": "cUSDC",
+      "path": "/token-list/cUSDC.webp",
+      "fullname": "Compound USD Coin",
+      "favorite": 0
+    },
+    {
+      "name": "cUSDT",
+      "path": "/token-list/cUSDT.webp",
+      "fullname": "Compound USDT",
+      "favorite": 0
+    },
+    {
+      "name": "CVC",
+      "path": "/token-list/CVC.webp",
+      "fullname": "Civic",
+      "favorite": 0
+    },
+    {
+      "name": "CVP",
+      "path": "/token-list/CVP.webp",
+      "fullname": "Concentrated Voting Power",
+      "favorite": 0
+    },
+    {
+      "name": "CVR",
+      "path": "/token-list/CVR.webp",
+      "fullname": "PolkaCover",
+      "favorite": 0
+    },
+    {
+      "name": "CVX",
+      "path": "/token-list/CVX.webp",
+      "fullname": "Convex Token",
+      "favorite": 0
+    },
+    {
+      "name": "cWBTC",
+      "path": "/token-list/cWBTC.webp",
+      "fullname": "Compound Wrapped BTC",
+      "favorite": 0
+    },
+    {
+      "name": "CWS",
+      "path": "/token-list/CWS.webp",
+      "fullname": "Crowns",
+      "favorite": 0
+    },
+    {
+      "name": "DAFI",
+      "path": "/token-list/DAFI.webp",
+      "fullname": "DAFI Token",
+      "favorite": 0
+    },
+    {
+      "name": "DAO",
+      "path": "/token-list/DAO.webp",
+      "fullname": "DAO Maker",
+      "favorite": 0
+    },
+    {
+      "name": "DATA",
+      "path": "/token-list/DATA.webp",
+      "fullname": "Streamr",
+      "favorite": 0
+    },
+    {
+      "name": "DCN",
+      "path": "/token-list/DCN.webp",
+      "fullname": "Dentacoin",
+      "favorite": 0
+    },
+    {
+      "name": "DDIM",
+      "path": "/token-list/DDIM.webp",
+      "fullname": "DuckDaoDime",
+      "favorite": 0
+    },
+    {
+      "name": "DDX",
+      "path": "/token-list/DDX.webp",
+      "fullname": "DerivaDAO",
+      "favorite": 0
+    },
+    {
+      "name": "DEBASE",
+      "path": "/token-list/DEBASE.webp",
+      "fullname": "Debase",
+      "favorite": 0
+    },
+    {
+      "name": "DEC",
+      "path": "/token-list/DEC.webp",
+      "fullname": "Decentr",
+      "favorite": 0
+    },
+    {
+      "name": "DEFI+S",
+      "path": "/token-list/DEFI+S.webp",
+      "fullname": "PieDAO DEFI Small Cap",
+      "favorite": 0
+    },
+    {
+      "name": "DEFT",
+      "path": "/token-list/DEFT.webp",
+      "fullname": "Defi Factory Token",
+      "favorite": 0
+    },
+    {
+      "name": "DEGEN",
+      "path": "/token-list/DEGEN.webp",
+      "fullname": "DEGEN Index",
+      "favorite": 0
+    },
+    {
+      "name": "DEGO",
+      "path": "/token-list/DEGO.webp",
+      "fullname": "dego.finance",
+      "favorite": 0
+    },
+    {
+      "name": "DENT",
+      "path": "/token-list/DENT.webp",
+      "fullname": "DENT",
+      "favorite": 0
+    },
+    {
+      "name": "DEPAY",
+      "path": "/token-list/DEPAY.webp",
+      "fullname": "DePay",
+      "favorite": 0
+    },
+    {
+      "name": "DEPO",
+      "path": "/token-list/DEPO.webp",
+      "fullname": "DePo Token",
+      "favorite": 0
+    },
+    {
+      "name": "DERI",
+      "path": "/token-list/DERI.webp",
+      "fullname": "Deri",
+      "favorite": 0
+    },
+    {
+      "name": "DEUS",
+      "path": "/token-list/DEUS.webp",
+      "fullname": "DEUS",
+      "favorite": 0
+    },
+    {
+      "name": "DEV",
+      "path": "/token-list/DEV.webp",
+      "fullname": "Dev",
+      "favorite": 0
+    },
+    {
+      "name": "DEXE",
+      "path": "/token-list/DEXE.webp",
+      "fullname": "Dexe",
+      "favorite": 0
+    },
+    {
+      "name": "DEXT",
+      "path": "/token-list/DEXT.webp",
+      "fullname": "DEXTools",
+      "favorite": 0
+    },
+    {
+      "name": "DEXTF",
+      "path": "/token-list/DEXTF.webp",
+      "fullname": "DEXTF Token",
+      "favorite": 0
+    },
+    {
+      "name": "DF",
+      "path": "/token-list/DF.webp",
+      "fullname": "dForce",
+      "favorite": 0
+    },
+    {
+      "name": "DFD",
+      "path": "/token-list/DFD.webp",
+      "fullname": "DefiDollar DAO",
+      "favorite": 0
+    },
+    {
+      "name": "DFI",
+      "path": "/token-list/DFI.webp",
+      "fullname": "Amun DeFi Index",
+      "favorite": 0
+    },
+    {
+      "name": "DFX",
+      "path": "/token-list/DFX.webp",
+      "fullname": "DFX Token",
+      "favorite": 0
+    },
+    {
+      "name": "DFYN",
+      "path": "/token-list/DFYN.webp",
+      "fullname": "DFYN Token",
+      "favorite": 0
+    },
+    {
+      "name": "DG",
+      "path": "/token-list/DG.webp",
+      "fullname": "DeGate Token",
+      "favorite": 0
+    },
+    {
+      "name": "DGTX",
+      "path": "/token-list/DGTX.webp",
+      "fullname": "DigitexFutures",
+      "favorite": 0
+    },
+    {
+      "name": "DHT",
+      "path": "/token-list/DHT.webp",
+      "fullname": "dHedge DAO Token",
+      "favorite": 0
+    },
+    {
+      "name": "DHV",
+      "path": "/token-list/DHV.webp",
+      "fullname": "DeHive.finance",
+      "favorite": 0
+    },
+    {
+      "name": "DIA",
+      "path": "/token-list/DIA.webp",
+      "fullname": "DIAToken",
+      "favorite": 0
+    },
+    {
+      "name": "DIGG",
+      "path": "/token-list/DIGG.webp",
+      "fullname": "Digg",
+      "favorite": 0
+    },
+    {
+      "name": "DINU",
+      "path": "/token-list/DINU.webp",
+      "fullname": "Dogey-Inu",
+      "favorite": 0
+    },
+    {
+      "name": "DIP_Insurance",
+      "path": "/token-list/DIP_Insurance.webp",
+      "fullname": "Decentralized Insurance Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "DIS",
+      "path": "/token-list/DIS.webp",
+      "fullname": "TosDis",
+      "favorite": 0
+    },
+    {
+      "name": "DMX",
+      "path": "/token-list/DMX.webp",
+      "fullname": "Amun DeFi Momentum Index",
+      "favorite": 0
+    },
+    {
+      "name": "DNT",
+      "path": "/token-list/DNT.webp",
+      "fullname": "district0x Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "DODO",
+      "path": "/token-list/DODO.webp",
+      "fullname": "DODO bird",
+      "favorite": 0
+    },
+    {
+      "name": "DOKI",
+      "path": "/token-list/DOKI.webp",
+      "fullname": "DokiDokiFinance",
+      "favorite": 0
+    },
+    {
+      "name": "DONUT",
+      "path": "/token-list/DONUT.webp",
+      "fullname": "DONUT",
+      "favorite": 0
+    },
+    {
+      "name": "DORA",
+      "path": "/token-list/DORA.webp",
+      "fullname": "Dorayaki",
+      "favorite": 0
+    },
+    {
+      "name": "DOS",
+      "path": "/token-list/DOS.webp",
+      "fullname": "DOS Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "DOUGH",
+      "path": "/token-list/DOUGH.webp",
+      "fullname": "PieDAO DOUGH v2",
+      "favorite": 0
+    },
+    {
+      "name": "DOV",
+      "path": "/token-list/DOV.webp",
+      "fullname": "DOVU",
+      "favorite": 0
+    },
+    {
+      "name": "DOWS",
+      "path": "/token-list/DOWS.webp",
+      "fullname": "Shadows Network",
+      "favorite": 0
+    },
+    {
+      "name": "DPI",
+      "path": "/token-list/DPI.webp",
+      "fullname": "DefiPulse Index",
+      "favorite": 0
+    },
+    {
+      "name": "DPR",
+      "path": "/token-list/DPR.webp",
+      "fullname": "Deeper Network",
+      "favorite": 0
+    },
+    {
+      "name": "DRC_1",
+      "path": "/token-list/DRC_1.webp",
+      "fullname": "Digital Reserve Currency",
+      "favorite": 0
+    },
+    {
+      "name": "DRC_2",
+      "path": "/token-list/DRC_2.webp",
+      "fullname": "Dracula Token",
+      "favorite": 0
+    },
+    {
+      "name": "DSD",
+      "path": "/token-list/DSD.webp",
+      "fullname": "Dynamic Set Dollar",
+      "favorite": 0
+    },
+    {
+      "name": "DSLA",
+      "path": "/token-list/DSLA.webp",
+      "fullname": "DSLA",
+      "favorite": 0
+    },
+    {
+      "name": "DTH",
+      "path": "/token-list/DTH.webp",
+      "fullname": "Dether",
+      "favorite": 0
+    },
+    {
+      "name": "DUCK",
+      "path": "/token-list/DUCK.webp",
+      "fullname": "DLP Duck Token",
+      "favorite": 0
+    },
+    {
+      "name": "DUCK_UNIT",
+      "path": "/token-list/DUCK_UNIT.webp",
+      "fullname": "Unit Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "DUSD",
+      "path": "/token-list/DUSD.webp",
+      "fullname": "DefiDollar",
+      "favorite": 0
+    },
+    {
+      "name": "DUSK",
+      "path": "/token-list/DUSK.webp",
+      "fullname": "Dusk Network",
+      "favorite": 0
+    },
+    {
+      "name": "DVF",
+      "path": "/token-list/DVF.webp",
+      "fullname": "DeversiFi Token",
+      "favorite": 0
+    },
+    {
+      "name": "DVI",
+      "path": "/token-list/DVI.webp",
+      "fullname": "Dvision",
+      "favorite": 0
+    },
+    {
+      "name": "DXD",
+      "path": "/token-list/DXD.webp",
+      "fullname": "DXdao",
+      "favorite": 0
+    },
+    {
+      "name": "DYDX",
+      "path": "/token-list/DYDX.webp",
+      "fullname": "dYdX",
+      "favorite": 0
+    },
+    {
+      "name": "DYP",
+      "path": "/token-list/DYP.webp",
+      "fullname": "DeFiYieldProtocol",
+      "favorite": 0
+    },
+    {
+      "name": "DZAR",
+      "path": "/token-list/DZAR.webp",
+      "fullname": "Digital Rand",
+      "favorite": 0
+    },
+    {
+      "name": "EBOX",
+      "path": "/token-list/EBOX.webp",
+      "fullname": "ethbox Token",
+      "favorite": 0
+    },
+    {
+      "name": "ECO",
+      "path": "/token-list/ECO.webp",
+      "fullname": "ECO TOKEN",
+      "favorite": 0
+    },
+    {
+      "name": "EDDA",
+      "path": "/token-list/EDDA.webp",
+      "fullname": "EDDA",
+      "favorite": 0
+    },
+    {
+      "name": "EDEN",
+      "path": "/token-list/EDEN.webp",
+      "fullname": "Eden",
+      "favorite": 0
+    },
+    {
+      "name": "ELF",
+      "path": "/token-list/ELF.webp",
+      "fullname": "Aelf",
+      "favorite": 0
+    },
+    {
+      "name": "ELON",
+      "path": "/token-list/ELON.webp",
+      "fullname": "Dogelon",
+      "favorite": 0
+    },
+    {
+      "name": "eMax",
+      "path": "/token-list/eMax.webp",
+      "fullname": "EthereumMax",
+      "favorite": 0
+    },
+    {
+      "name": "EMB",
+      "path": "/token-list/EMB.webp",
+      "fullname": "Emblem",
+      "favorite": 0
+    },
+    {
+      "name": "eMTRG",
+      "path": "/token-list/eMTRG.webp",
+      "fullname": "Meter Governance mapped by Meter.io",
+      "favorite": 0
+    },
+    {
+      "name": "ENJ",
+      "path": "/token-list/ENJ.webp",
+      "fullname": "Enjin Coin",
+      "favorite": 0
+    },
+    {
+      "name": "ENS",
+      "path": "/token-list/ENS.webp",
+      "fullname": "Ethereum Name Service",
+      "favorite": 0
+    },
+    {
+      "name": "EPAN",
+      "path": "/token-list/EPAN.webp",
+      "fullname": "Paypolitan Token",
+      "favorite": 0
+    },
+    {
+      "name": "EQMT",
+      "path": "/token-list/EQMT.webp",
+      "fullname": "EQUUSMiningToken",
+      "favorite": 0
+    },
+    {
+      "name": "EQUAD",
+      "path": "/token-list/EQUAD.webp",
+      "fullname": "Quadrant Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "EQZ",
+      "path": "/token-list/EQZ.webp",
+      "fullname": "Equalizer",
+      "favorite": 0
+    },
+    {
+      "name": "ERN",
+      "path": "/token-list/ERN.webp",
+      "fullname": "@EthernityChain $ERN Token",
+      "favorite": 0
+    },
+    {
+      "name": "erowan",
+      "path": "/token-list/erowan.webp",
+      "fullname": "erowan",
+      "favorite": 0
+    },
+    {
+      "name": "eRSDL",
+      "path": "/token-list/eRSDL.webp",
+      "fullname": "UnFederalReserveToken",
+      "favorite": 0
+    },
+    {
+      "name": "ESD",
+      "path": "/token-list/ESD.webp",
+      "fullname": "Empty Set Dollar",
+      "favorite": 0
+    },
+    {
+      "name": "ESS",
+      "path": "/token-list/ESS.webp",
+      "fullname": "ESSENTIA",
+      "favorite": 0
+    },
+    {
+      "name": "ETH2x-FLI",
+      "path": "/token-list/ETH2x-FLI.webp",
+      "fullname": "ETH 2x Flexible Leverage Index",
+      "favorite": 0
+    },
+    {
+      "name": "ETHV",
+      "path": "/token-list/ETHV.webp",
+      "fullname": "ETH Volatility Index",
+      "favorite": 0
+    },
+    {
+      "name": "ETHV_Ethverse",
+      "path": "/token-list/ETHV_Ethverse.webp",
+      "fullname": "Ethverse Token",
+      "favorite": 0
+    },
+    {
+      "name": "EURS",
+      "path": "/token-list/EURS.webp",
+      "fullname": "STASIS EURS",
+      "favorite": 0
+    },
+    {
+      "name": "EURT",
+      "path": "/token-list/EURT.webp",
+      "fullname": "Euro Tether",
+      "favorite": 0
+    },
+    {
+      "name": "EVN",
+      "path": "/token-list/EVN.webp",
+      "fullname": "Evn Token",
+      "favorite": 0
+    },
+    {
+      "name": "EWTB",
+      "path": "/token-list/EWTB.webp",
+      "fullname": "Energy Web Token Bridged",
+      "favorite": 0
+    },
+    {
+      "name": "eXRD",
+      "path": "/token-list/eXRD.webp",
+      "fullname": "E-RADIX",
+      "favorite": 0
+    },
+    {
+      "name": "EXRT",
+      "path": "/token-list/EXRT.webp",
+      "fullname": "EXRT",
+      "favorite": 0
+    },
+    {
+      "name": "FARM",
+      "path": "/token-list/FARM.webp",
+      "fullname": "FARM Reward Token",
+      "favorite": 0
+    },
+    {
+      "name": "FCL",
+      "path": "/token-list/FCL.webp",
+      "fullname": "Fractal Protocol Token",
+      "favorite": 0
+    },
+    {
+      "name": "FEG",
+      "path": "/token-list/FEG.webp",
+      "fullname": "FEGtoken",
+      "favorite": 0
+    },
+    {
+      "name": "FEI",
+      "path": "/token-list/FEI.webp",
+      "fullname": "Fei USD",
+      "favorite": 0
+    },
+    {
+      "name": "FERA",
+      "path": "/token-list/FERA.webp",
+      "fullname": "FERA",
+      "favorite": 0
+    },
+    {
+      "name": "FET",
+      "path": "/token-list/FET.webp",
+      "fullname": "Fetch",
+      "favorite": 0
+    },
+    {
+      "name": "FIN",
+      "path": "/token-list/FIN.webp",
+      "fullname": "DeFiner",
+      "favorite": 0
+    },
+    {
+      "name": "FIRE",
+      "path": "/token-list/FIRE.webp",
+      "fullname": "Fire Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "FIS",
+      "path": "/token-list/FIS.webp",
+      "fullname": "StaFi",
+      "favorite": 0
+    },
+    {
+      "name": "FLIXX",
+      "path": "/token-list/FLIXX.webp",
+      "fullname": "Flixxo",
+      "favorite": 0
+    },
+    {
+      "name": "FLOKI",
+      "path": "/token-list/FLOKI.webp",
+      "fullname": "FLOKI",
+      "favorite": 0
+    },
+    {
+      "name": "FLOKIPUP",
+      "path": "/token-list/FLOKIPUP.webp",
+      "fullname": "Floki Pup",
+      "favorite": 0
+    },
+    {
+      "name": "FLX",
+      "path": "/token-list/FLX.webp",
+      "fullname": "Flex Ungovernance Token",
+      "favorite": 0
+    },
+    {
+      "name": "FNT",
+      "path": "/token-list/FNT.webp",
+      "fullname": "Falcon",
+      "favorite": 0
+    },
+    {
+      "name": "FNX",
+      "path": "/token-list/FNX.webp",
+      "fullname": "FinNexus",
+      "favorite": 0
+    },
+    {
+      "name": "FOAM",
+      "path": "/token-list/FOAM.webp",
+      "fullname": "FOAM Token",
+      "favorite": 0
+    },
+    {
+      "name": "FODL",
+      "path": "/token-list/FODL.webp",
+      "fullname": "Fodl",
+      "favorite": 0
+    },
+    {
+      "name": "FONT",
+      "path": "/token-list/FONT.webp",
+      "fullname": "Font",
+      "favorite": 0
+    },
+    {
+      "name": "FORTH",
+      "path": "/token-list/FORTH.webp",
+      "fullname": "Ampleforth Governance",
+      "favorite": 0
+    },
+    {
+      "name": "FOUR",
+      "path": "/token-list/FOUR.webp",
+      "fullname": "The 4th Pillar Token",
+      "favorite": 0
+    },
+    {
+      "name": "FOX",
+      "path": "/token-list/FOX.webp",
+      "fullname": "FOX",
+      "favorite": 0
+    },
+    {
+      "name": "FRAX",
+      "path": "/token-list/FRAX.webp",
+      "fullname": "Frax",
+      "favorite": 0
+    },
+    {
+      "name": "FRM",
+      "path": "/token-list/FRM.webp",
+      "fullname": "Ferrum Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "FRONT",
+      "path": "/token-list/FRONT.webp",
+      "fullname": "Frontier Token",
+      "favorite": 0
+    },
+    {
+      "name": "FRY",
+      "path": "/token-list/FRY.webp",
+      "fullname": "Foundry Logistics Token",
+      "favorite": 0
+    },
+    {
+      "name": "FSW",
+      "path": "/token-list/FSW.webp",
+      "fullname": "FalconSwap Token",
+      "favorite": 0
+    },
+    {
+      "name": "FTM",
+      "path": "/token-list/FTM.webp",
+      "fullname": "Fantom Token",
+      "favorite": 0
+    },
+    {
+      "name": "FTX",
+      "path": "/token-list/FTX.webp",
+      "fullname": "FintruX",
+      "favorite": 0
+    },
+    {
+      "name": "FTX Token",
+      "path": "/token-list/FTX Token.webp",
+      "fullname": "FTT",
+      "favorite": 0
+    },
+    {
+      "name": "FUN",
+      "path": "/token-list/FUN.webp",
+      "fullname": "FunFair",
+      "favorite": 0
+    },
+    {
+      "name": "FUSE",
+      "path": "/token-list/FUSE.webp",
+      "fullname": "Fuse Token",
+      "favorite": 0
+    },
+    {
+      "name": "FXF",
+      "path": "/token-list/FXF.webp",
+      "fullname": "Finxflo",
+      "favorite": 0
+    },
+    {
+      "name": "FXS",
+      "path": "/token-list/FXS.webp",
+      "fullname": "Frax Share",
+      "favorite": 0
+    },
+    {
+      "name": "FYZ",
+      "path": "/token-list/FYZ.webp",
+      "fullname": "FYOOZ",
+      "favorite": 0
+    },
+    {
+      "name": "GAINS",
+      "path": "/token-list/GAINS.webp",
+      "fullname": "Gains",
+      "favorite": 0
+    },
+    {
+      "name": "GALA",
+      "path": "/token-list/GALA.webp",
+      "fullname": "Gala",
+      "favorite": 0
+    },
+    {
+      "name": "GAME",
+      "path": "/token-list/GAME.webp",
+      "fullname": "GAME Credits",
+      "favorite": 0
+    },
+    {
+      "name": "GAS",
+      "path": "/token-list/GAS.webp",
+      "fullname": "Gas DAO",
+      "favorite": 0
+    },
+    {
+      "name": "GDAO",
+      "path": "/token-list/GDAO.webp",
+      "fullname": "Governor",
+      "favorite": 0
+    },
+    {
+      "name": "GDC",
+      "path": "/token-list/GDC.webp",
+      "fullname": "Global Digital Content",
+      "favorite": 0
+    },
+    {
+      "name": "GEEQ",
+      "path": "/token-list/GEEQ.webp",
+      "fullname": "Geeq",
+      "favorite": 0
+    },
+    {
+      "name": "GEL",
+      "path": "/token-list/GEL.webp",
+      "fullname": "Gelato Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "GEN",
+      "path": "/token-list/GEN.webp",
+      "fullname": "DAOStack",
+      "favorite": 0
+    },
+    {
+      "name": "GEO",
+      "path": "/token-list/GEO.webp",
+      "fullname": "GeoDB Coin",
+      "favorite": 0
+    },
+    {
+      "name": "GERO",
+      "path": "/token-list/GERO.webp",
+      "fullname": "GeroWallet",
+      "favorite": 0
+    },
+    {
+      "name": "GET",
+      "path": "/token-list/GET.webp",
+      "fullname": "GET",
+      "favorite": 0
+    },
+    {
+      "name": "GHOST",
+      "path": "/token-list/GHOST.webp",
+      "fullname": "GHOST",
+      "favorite": 0
+    },
+    {
+      "name": "GHST",
+      "path": "/token-list/GHST.webp",
+      "fullname": "Aavegotchi GHST Token",
+      "favorite": 0
+    },
+    {
+      "name": "GLCH",
+      "path": "/token-list/GLCH.webp",
+      "fullname": "Glitch",
+      "favorite": 0
+    },
+    {
+      "name": "GLM",
+      "path": "/token-list/GLM.webp",
+      "fullname": "Golem Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "GLQ",
+      "path": "/token-list/GLQ.webp",
+      "fullname": "GraphLinq",
+      "favorite": 0
+    },
+    {
+      "name": "GMI",
+      "path": "/token-list/GMI.webp",
+      "fullname": "Bankless DeFi Innovation Index",
+      "favorite": 0
+    },
+    {
+      "name": "GNO",
+      "path": "/token-list/GNO.webp",
+      "fullname": "Gnosis",
+      "favorite": 0
+    },
+    {
+      "name": "GNYerc20",
+      "path": "/token-list/GNYerc20.webp",
+      "fullname": "GNYerc20",
+      "favorite": 0
+    },
+    {
+      "name": "GOF",
+      "path": "/token-list/GOF.webp",
+      "fullname": "Golff.finance",
+      "favorite": 0
+    },
+    {
+      "name": "GOGETA",
+      "path": "/token-list/GOGETA.webp",
+      "fullname": "Gogeta Inu",
+      "favorite": 0
+    },
+    {
+      "name": "GOKU",
+      "path": "/token-list/GOKU.webp",
+      "fullname": "Goku Inu",
+      "favorite": 0
+    },
+    {
+      "name": "GOVI",
+      "path": "/token-list/GOVI.webp",
+      "fullname": "GOVI",
+      "favorite": 0
+    },
+    {
+      "name": "GRID",
+      "path": "/token-list/GRID.webp",
+      "fullname": "GRID",
+      "favorite": 0
+    },
+    {
+      "name": "GS",
+      "path": "/token-list/GS.webp",
+      "fullname": "Gen Shards",
+      "favorite": 0
+    },
+    {
+      "name": "GST2",
+      "path": "/token-list/GST2.webp",
+      "fullname": "Gastoken.io 2",
+      "favorite": 0
+    },
+    {
+      "name": "GSWAP",
+      "path": "/token-list/GSWAP.webp",
+      "fullname": "gameswap.org",
+      "favorite": 0
+    },
+    {
+      "name": "GTC",
+      "path": "/token-list/GTC.webp",
+      "fullname": "Gitcoin",
+      "favorite": 0
+    },
+    {
+      "name": "GTON",
+      "path": "/token-list/GTON.webp",
+      "fullname": "Graviton",
+      "favorite": 0
+    },
+    {
+      "name": "GUM",
+      "path": "/token-list/GUM.webp",
+      "fullname": "GourmetGalaxy",
+      "favorite": 0
+    },
+    {
+      "name": "GUSD",
+      "path": "/token-list/GUSD.webp",
+      "fullname": "Gemini dollar",
+      "favorite": 0
+    },
+    {
+      "name": "GYEN",
+      "path": "/token-list/GYEN.webp",
+      "fullname": "GMO JPY",
+      "favorite": 0
+    },
+    {
+      "name": "GYSR",
+      "path": "/token-list/GYSR.webp",
+      "fullname": "Geyser",
+      "favorite": 0
+    },
+    {
+      "name": "HAKA",
+      "path": "/token-list/HAKA.webp",
+      "fullname": "TribeOne",
+      "favorite": 0
+    },
+    {
+      "name": "HAKKA",
+      "path": "/token-list/HAKKA.webp",
+      "fullname": "Hakka Finance",
+      "favorite": 0
+    },
+    {
+      "name": "HANU",
+      "path": "/token-list/HANU.webp",
+      "fullname": "Hanu Yokia",
+      "favorite": 0
+    },
+    {
+      "name": "HAPI",
+      "path": "/token-list/HAPI.webp",
+      "fullname": "HAPI",
+      "favorite": 0
+    },
+    {
+      "name": "HBT",
+      "path": "/token-list/HBT.webp",
+      "fullname": "Habitat Token",
+      "favorite": 0
+    },
+    {
+      "name": "HBTC",
+      "path": "/token-list/HBTC.webp",
+      "fullname": "Huobi BTC",
+      "favorite": 0
+    },
+    {
+      "name": "HEDG",
+      "path": "/token-list/HEDG.webp",
+      "fullname": "Hedge Trade",
+      "favorite": 0
+    },
+    {
+      "name": "HEGIC",
+      "path": "/token-list/HEGIC.webp",
+      "fullname": "Hegic",
+      "favorite": 0
+    },
+    {
+      "name": "HEX",
+      "path": "/token-list/HEX.webp",
+      "fullname": "HEX",
+      "favorite": 0
+    },
+    {
+      "name": "HEZ",
+      "path": "/token-list/HEZ.webp",
+      "fullname": "Hermez Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "HGET",
+      "path": "/token-list/HGET.webp",
+      "fullname": "Hedget",
+      "favorite": 0
+    },
+    {
+      "name": "HH",
+      "path": "/token-list/HH.webp",
+      "fullname": "Holyheld",
+      "favorite": 0
+    },
+    {
+      "name": "HOGE",
+      "path": "/token-list/HOGE.webp",
+      "fullname": "hoge.finance",
+      "favorite": 0
+    },
+    {
+      "name": "HOKK",
+      "path": "/token-list/HOKK.webp",
+      "fullname": "Hokkaido Inu",
+      "favorite": 0
+    },
+    {
+      "name": "HOPR",
+      "path": "/token-list/HOPR.webp",
+      "fullname": "HOPR Token",
+      "favorite": 0
+    },
+    {
+      "name": "HOT",
+      "path": "/token-list/HOT.webp",
+      "fullname": "HoloToken",
+      "favorite": 0
+    },
+    {
+      "name": "HT",
+      "path": "/token-list/HT.webp",
+      "fullname": "HuobiToken",
+      "favorite": 0
+    },
+    {
+      "name": "HTRE",
+      "path": "/token-list/HTRE.webp",
+      "fullname": "HodlTree",
+      "favorite": 0
+    },
+    {
+      "name": "HUSD",
+      "path": "/token-list/HUSD.webp",
+      "fullname": "HUSD",
+      "favorite": 0
+    },
+    {
+      "name": "HY",
+      "path": "/token-list/HY.webp",
+      "fullname": "hybrix hydra",
+      "favorite": 0
+    },
+    {
+      "name": "iBTCV",
+      "path": "/token-list/iBTCV.webp",
+      "fullname": "Inverse BTC Volatility Index",
+      "favorite": 0
+    },
+    {
+      "name": "ICE",
+      "path": "/token-list/ICE.webp",
+      "fullname": "IceToken",
+      "favorite": 0
+    },
+    {
+      "name": "ICHI",
+      "path": "/token-list/ICHI.webp",
+      "fullname": "ichi.farm",
+      "favorite": 0
+    },
+    {
+      "name": "ID",
+      "path": "/token-list/ID.webp",
+      "fullname": "Everest ID",
+      "favorite": 0
+    },
+    {
+      "name": "IDEX",
+      "path": "/token-list/IDEX.webp",
+      "fullname": "IDEX Token",
+      "favorite": 0
+    },
+    {
+      "name": "IDLE",
+      "path": "/token-list/IDLE.webp",
+      "fullname": "Idle",
+      "favorite": 0
+    },
+    {
+      "name": "iETHV",
+      "path": "/token-list/iETHV.webp",
+      "fullname": "Inverse ETH Volatility Index",
+      "favorite": 0
+    },
+    {
+      "name": "ILV",
+      "path": "/token-list/ILV.webp",
+      "fullname": "Illuvium",
+      "favorite": 0
+    },
+    {
+      "name": "IMX",
+      "path": "/token-list/IMX.webp",
+      "fullname": "Immutable X",
+      "favorite": 0
+    },
+    {
+      "name": "IND",
+      "path": "/token-list/IND.webp",
+      "fullname": "Indorse",
+      "favorite": 0
+    },
+    {
+      "name": "INDEX",
+      "path": "/token-list/INDEX.webp",
+      "fullname": "Index",
+      "favorite": 0
+    },
+    {
+      "name": "INFI",
+      "path": "/token-list/INFI.webp",
+      "fullname": "INFI",
+      "favorite": 0
+    },
+    {
+      "name": "INJ",
+      "path": "/token-list/INJ.webp",
+      "fullname": "Injective Token",
+      "favorite": 0
+    },
+    {
+      "name": "INST",
+      "path": "/token-list/INST.webp",
+      "fullname": "Instadapp",
+      "favorite": 0
+    },
+    {
+      "name": "INSUR",
+      "path": "/token-list/INSUR.webp",
+      "fullname": "InsurAce",
+      "favorite": 0
+    },
+    {
+      "name": "Inu",
+      "path": "/token-list/Inu.webp",
+      "fullname": "Hachiko Inu",
+      "favorite": 0
+    },
+    {
+      "name": "INV",
+      "path": "/token-list/INV.webp",
+      "fullname": "Inverse DAO",
+      "favorite": 0
+    },
+    {
+      "name": "ISLE",
+      "path": "/token-list/ISLE.webp",
+      "fullname": "Island",
+      "favorite": 0
+    },
+    {
+      "name": "IXS",
+      "path": "/token-list/IXS.webp",
+      "fullname": "Ixs Token",
+      "favorite": 0
+    },
+    {
+      "name": "JACY",
+      "path": "/token-list/JACY.webp",
+      "fullname": "JACY",
+      "favorite": 0
+    },
+    {
+      "name": "JGN",
+      "path": "/token-list/JGN.webp",
+      "fullname": "Juggernaut DeFi",
+      "favorite": 0
+    },
+    {
+      "name": "JRT",
+      "path": "/token-list/JRT.webp",
+      "fullname": "Jarvis Reward Token",
+      "favorite": 0
+    },
+    {
+      "name": "JUP",
+      "path": "/token-list/JUP.webp",
+      "fullname": "Jupiter",
+      "favorite": 0
+    },
+    {
+      "name": "K21",
+      "path": "/token-list/K21.webp",
+      "fullname": "k21.kanon.art",
+      "favorite": 0
+    },
+    {
+      "name": "KARMA",
+      "path": "/token-list/KARMA.webp",
+      "fullname": "Karma",
+      "favorite": 0
+    },
+    {
+      "name": "KBTC",
+      "path": "/token-list/KBTC.webp",
+      "fullname": "KBTC",
+      "favorite": 0
+    },
+    {
+      "name": "KEANU",
+      "path": "/token-list/KEANU.webp",
+      "fullname": "Keanu Inu",
+      "favorite": 0
+    },
+    {
+      "name": "KEEP",
+      "path": "/token-list/KEEP.webp",
+      "fullname": "KEEP Token",
+      "favorite": 0
+    },
+    {
+      "name": "KEN",
+      "path": "/token-list/KEN.webp",
+      "fullname": "Kenysians Network",
+      "favorite": 0
+    },
+    {
+      "name": "KEX",
+      "path": "/token-list/KEX.webp",
+      "fullname": "KIRA Network",
+      "favorite": 0
+    },
+    {
+      "name": "KINE",
+      "path": "/token-list/KINE.webp",
+      "fullname": "Kine Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "KIRO",
+      "path": "/token-list/KIRO.webp",
+      "fullname": "Kirobo",
+      "favorite": 0
+    },
+    {
+      "name": "KISHU",
+      "path": "/token-list/KISHU.webp",
+      "fullname": "Kishu Inu",
+      "favorite": 0
+    },
+    {
+      "name": "KIT",
+      "path": "/token-list/KIT.webp",
+      "fullname": "DexKit",
+      "favorite": 0
+    },
+    {
+      "name": "KLEE",
+      "path": "/token-list/KLEE.webp",
+      "fullname": "Klee Kai",
+      "favorite": 0
+    },
+    {
+      "name": "KNC",
+      "path": "/token-list/KNC.webp",
+      "fullname": "Kyber Network Crystal v2",
+      "favorite": 0
+    },
+    {
+      "name": "KNCL",
+      "path": "/token-list/KNCL.webp",
+      "fullname": "KyberNetwork Legacy",
+      "favorite": 0
+    },
+    {
+      "name": "KONO",
+      "path": "/token-list/KONO.webp",
+      "fullname": "Konomi",
+      "favorite": 0
+    },
+    {
+      "name": "KP4R",
+      "path": "/token-list/KP4R.webp",
+      "fullname": "Keep4r",
+      "favorite": 0
+    },
+    {
+      "name": "KTO",
+      "path": "/token-list/KTO.webp",
+      "fullname": "Kounotori",
+      "favorite": 0
+    },
+    {
+      "name": "KYL",
+      "path": "/token-list/KYL.webp",
+      "fullname": "Kylin Network",
+      "favorite": 0
+    },
+    {
+      "name": "L2",
+      "path": "/token-list/L2.webp",
+      "fullname": "Leverj Gluon",
+      "favorite": 0
+    },
+    {
+      "name": "LABS",
+      "path": "/token-list/LABS.webp",
+      "fullname": "LABS Group",
+      "favorite": 0
+    },
+    {
+      "name": "LAR",
+      "path": "/token-list/LAR.webp",
+      "fullname": "Linkart",
+      "favorite": 0
+    },
+    {
+      "name": "LAYER",
+      "path": "/token-list/LAYER.webp",
+      "fullname": "Unilayer",
+      "favorite": 0
+    },
+    {
+      "name": "LCX",
+      "path": "/token-list/LCX.webp",
+      "fullname": "LCX",
+      "favorite": 0
+    },
+    {
+      "name": "LDO",
+      "path": "/token-list/LDO.webp",
+      "fullname": "Lido DAO Token",
+      "favorite": 0
+    },
+    {
+      "name": "LEASH",
+      "path": "/token-list/LEASH.webp",
+      "fullname": "DOGE KILLER",
+      "favorite": 0
+    },
+    {
+      "name": "LEND",
+      "path": "/token-list/LEND.webp",
+      "fullname": "EthLend",
+      "favorite": 0
+    },
+    {
+      "name": "LEO",
+      "path": "/token-list/LEO.webp",
+      "fullname": "Bitfinex LEO Token",
+      "favorite": 0
+    },
+    {
+      "name": "LGB",
+      "path": "/token-list/LGB.webp",
+      "fullname": "Let's Go Brandon",
+      "favorite": 0
+    },
+    {
+      "name": "LGCY",
+      "path": "/token-list/LGCY.webp",
+      "fullname": "LGCY Network",
+      "favorite": 0
+    },
+    {
+      "name": "LGO",
+      "path": "/token-list/LGO.webp",
+      "fullname": "LGO Token",
+      "favorite": 0
+    },
+    {
+      "name": "LIBERTAS",
+      "path": "/token-list/LIBERTAS.webp",
+      "fullname": "LIBERTAS",
+      "favorite": 0
+    },
+    {
+      "name": "LINA",
+      "path": "/token-list/LINA.webp",
+      "fullname": "Linear Token",
+      "favorite": 0
+    },
+    {
+      "name": "LIT",
+      "path": "/token-list/LIT.webp",
+      "fullname": "Litentry",
+      "favorite": 0
+    },
+    {
+      "name": "LMY",
+      "path": "/token-list/LMY.webp",
+      "fullname": "Lunch Money",
+      "favorite": 0
+    },
+    {
+      "name": "LOCK",
+      "path": "/token-list/LOCK.webp",
+      "fullname": "Meridian Network",
+      "favorite": 0
+    },
+    {
+      "name": "LON",
+      "path": "/token-list/LON.webp",
+      "fullname": "Tokenlon",
+      "favorite": 0
+    },
+    {
+      "name": "LOOKS",
+      "path": "/token-list/LOOKS.webp",
+      "fullname": "LooksRare Token",
+      "favorite": 0
+    },
+    {
+      "name": "LOOM",
+      "path": "/token-list/LOOM.webp",
+      "fullname": "Loom Network",
+      "favorite": 0
+    },
+    {
+      "name": "LOOT",
+      "path": "/token-list/LOOT.webp",
+      "fullname": "NFTLootBox.com",
+      "favorite": 0
+    },
+    {
+      "name": "LPL",
+      "path": "/token-list/LPL.webp",
+      "fullname": "LinkPool",
+      "favorite": 0
+    },
+    {
+      "name": "LPOOL",
+      "path": "/token-list/LPOOL.webp",
+      "fullname": "Launchpool token",
+      "favorite": 0
+    },
+    {
+      "name": "LPT",
+      "path": "/token-list/LPT.webp",
+      "fullname": "Livepeer Token",
+      "favorite": 0
+    },
+    {
+      "name": "LQTY",
+      "path": "/token-list/LQTY.webp",
+      "fullname": "LQTY",
+      "favorite": 0
+    },
+    {
+      "name": "LRC",
+      "path": "/token-list/LRC.webp",
+      "fullname": "Loopring",
+      "favorite": 0
+    },
+    {
+      "name": "LST",
+      "path": "/token-list/LST.webp",
+      "fullname": "Lendroid Support Token",
+      "favorite": 0
+    },
+    {
+      "name": "LTO",
+      "path": "/token-list/LTO.webp",
+      "fullname": "LTO Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "LTX",
+      "path": "/token-list/LTX.webp",
+      "fullname": "Lattice Token",
+      "favorite": 0
+    },
+    {
+      "name": "LUA",
+      "path": "/token-list/LUA.webp",
+      "fullname": "LuaToken",
+      "favorite": 0
+    },
+    {
+      "name": "LUFFY",
+      "path": "/token-list/LUFFY.webp",
+      "fullname": "Luffy Inu",
+      "favorite": 0
+    },
+    {
+      "name": "LUNA",
+      "path": "/token-list/LUNA.webp",
+      "fullname": "Wrapped LUNA Token",
+      "favorite": 0
+    },
+    {
+      "name": "LUSD",
+      "path": "/token-list/LUSD.webp",
+      "fullname": "LUSD Stablecoin",
+      "favorite": 0
+    },
+    {
+      "name": "LYM",
+      "path": "/token-list/LYM.webp",
+      "fullname": "Lympo tokens",
+      "favorite": 0
+    },
+    {
+      "name": "LYXe",
+      "path": "/token-list/LYXe.webp",
+      "fullname": "LUKSO Token",
+      "favorite": 0
+    },
+    {
+      "name": "MAD",
+      "path": "/token-list/MAD.webp",
+      "fullname": "MADToken",
+      "favorite": 0
+    },
+    {
+      "name": "MAHA",
+      "path": "/token-list/MAHA.webp",
+      "fullname": "MahaDAO",
+      "favorite": 0
+    },
+    {
+      "name": "MANA",
+      "path": "/token-list/MANA.webp",
+      "fullname": "Mana",
+      "favorite": 0
+    },
+    {
+      "name": "MANDOX",
+      "path": "/token-list/MANDOX.webp",
+      "fullname": "MandoX",
+      "favorite": 0
+    },
+    {
+      "name": "MAPS",
+      "path": "/token-list/MAPS.webp",
+      "fullname": "Maps.me Token",
+      "favorite": 0
+    },
+    {
+      "name": "MARK",
+      "path": "/token-list/MARK.webp",
+      "fullname": "Benchmark",
+      "favorite": 0
+    },
+    {
+      "name": "Mars",
+      "path": "/token-list/Mars.webp",
+      "fullname": "MarsToken",
+      "favorite": 0
+    },
+    {
+      "name": "MARSH",
+      "path": "/token-list/MARSH.webp",
+      "fullname": "UnmarshalToken",
+      "favorite": 0
+    },
+    {
+      "name": "MASK",
+      "path": "/token-list/MASK.webp",
+      "fullname": "Mask",
+      "favorite": 0
+    },
+    {
+      "name": "MASK_NTWRK",
+      "path": "/token-list/MASK_NTWRK.webp",
+      "fullname": "Mask Network",
+      "favorite": 0
+    },
+    {
+      "name": "MASQ",
+      "path": "/token-list/MASQ.webp",
+      "fullname": "MASQ",
+      "favorite": 0
+    },
+    {
+      "name": "MATH",
+      "path": "/token-list/MATH.webp",
+      "fullname": "MATH Token",
+      "favorite": 0
+    },
+    {
+      "name": "MATIC",
+      "path": "/token-list/MATIC.webp",
+      "fullname": "Matic Token",
+      "favorite": 0
+    },
+    {
+      "name": "MATTER",
+      "path": "/token-list/MATTER.webp",
+      "fullname": "Antimatter.Finance Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "mBTC",
+      "path": "/token-list/mBTC.webp",
+      "fullname": "mStable BTC",
+      "favorite": 0
+    },
+    {
+      "name": "MC",
+      "path": "/token-list/MC.webp",
+      "fullname": "Merit Circle",
+      "favorite": 0
+    },
+    {
+      "name": "MCB",
+      "path": "/token-list/MCB.webp",
+      "fullname": "MCDEX Token",
+      "favorite": 0
+    },
+    {
+      "name": "MCX",
+      "path": "/token-list/MCX.webp",
+      "fullname": "MachiX Token",
+      "favorite": 0
+    },
+    {
+      "name": "MDT_1",
+      "path": "/token-list/MDT_1.webp",
+      "fullname": "Measurable Data Token",
+      "favorite": 0
+    },
+    {
+      "name": "MEGA",
+      "path": "/token-list/MEGA.webp",
+      "fullname": "MegaCryptoPolis $MEGA Token (MEGA)",
+      "favorite": 0
+    },
+    {
+      "name": "MEL",
+      "path": "/token-list/MEL.webp",
+      "fullname": "Melalie",
+      "favorite": 0
+    },
+    {
+      "name": "MEME",
+      "path": "/token-list/MEME.webp",
+      "fullname": "MEME",
+      "favorite": 0
+    },
+    {
+      "name": "MET",
+      "path": "/token-list/MET.webp",
+      "fullname": "Metronome",
+      "favorite": 0
+    },
+    {
+      "name": "Metis",
+      "path": "/token-list/Metis.webp",
+      "fullname": "Metis Token",
+      "favorite": 0
+    },
+    {
+      "name": "METRIC",
+      "path": "/token-list/METRIC.webp",
+      "fullname": "Metric.exchange",
+      "favorite": 0
+    },
+    {
+      "name": "MFG",
+      "path": "/token-list/MFG.webp",
+      "fullname": "Smart MFG",
+      "favorite": 0
+    },
+    {
+      "name": "MFI",
+      "path": "/token-list/MFI.webp",
+      "fullname": "MarginSwap",
+      "favorite": 0
+    },
+    {
+      "name": "MFT",
+      "path": "/token-list/MFT.webp",
+      "fullname": "Mainframe",
+      "favorite": 0
+    },
+    {
+      "name": "MIC",
+      "path": "/token-list/MIC.webp",
+      "fullname": "MIC",
+      "favorite": 0
+    },
+    {
+      "name": "MILK2",
+      "path": "/token-list/MILK2.webp",
+      "fullname": "MilkyWay Token by SpaceSwap v2",
+      "favorite": 0
+    },
+    {
+      "name": "MIM",
+      "path": "/token-list/MIM.webp",
+      "fullname": "Magic Internet Money",
+      "favorite": 0
+    },
+    {
+      "name": "MINDS",
+      "path": "/token-list/MINDS.webp",
+      "fullname": "Minds",
+      "favorite": 0
+    },
+    {
+      "name": "miniSAITAMA",
+      "path": "/token-list/miniSAITAMA.webp",
+      "fullname": "mini SAITAMA",
+      "favorite": 0
+    },
+    {
+      "name": "MINT",
+      "path": "/token-list/MINT.webp",
+      "fullname": "Public Mint",
+      "favorite": 0
+    },
+    {
+      "name": "MIR",
+      "path": "/token-list/MIR.webp",
+      "fullname": "Wrapped MIR Token",
+      "favorite": 0
+    },
+    {
+      "name": "MIS",
+      "path": "/token-list/MIS.webp",
+      "fullname": "MIS",
+      "favorite": 0
+    },
+    {
+      "name": "MIST",
+      "path": "/token-list/MIST.webp",
+      "fullname": "Alchemist",
+      "favorite": 0
+    },
+    {
+      "name": "MKR",
+      "path": "/token-list/MKR.webp",
+      "fullname": "Maker",
+      "favorite": 0
+    },
+    {
+      "name": "MLN",
+      "path": "/token-list/MLN.webp",
+      "fullname": "Melon Token",
+      "favorite": 0
+    },
+    {
+      "name": "MM_1",
+      "path": "/token-list/MM_1.webp",
+      "fullname": "MMToken",
+      "favorite": 0
+    },
+    {
+      "name": "MM_2",
+      "path": "/token-list/MM_2.webp",
+      "fullname": "Million",
+      "favorite": 0
+    },
+    {
+      "name": "MOD",
+      "path": "/token-list/MOD.webp",
+      "fullname": "Modefi",
+      "favorite": 0
+    },
+    {
+      "name": "MONA",
+      "path": "/token-list/MONA.webp",
+      "fullname": "Monavale",
+      "favorite": 0
+    },
+    {
+      "name": "MOON",
+      "path": "/token-list/MOON.webp",
+      "fullname": "MoonToken",
+      "favorite": 0
+    },
+    {
+      "name": "MOONS",
+      "path": "/token-list/MOONS.webp",
+      "fullname": "MoonTools.io",
+      "favorite": 0
+    },
+    {
+      "name": "MP3",
+      "path": "/token-list/MP3.webp",
+      "fullname": "mp3",
+      "favorite": 0
+    },
+    {
+      "name": "MPH",
+      "path": "/token-list/MPH.webp",
+      "fullname": "88mph.app",
+      "favorite": 0
+    },
+    {
+      "name": "MPL",
+      "path": "/token-list/MPL.webp",
+      "fullname": "Maple Token",
+      "favorite": 0
+    },
+    {
+      "name": "MRPH",
+      "path": "/token-list/MRPH.webp",
+      "fullname": "Morpheus Network",
+      "favorite": 0
+    },
+    {
+      "name": "MTA",
+      "path": "/token-list/MTA.webp",
+      "fullname": "Meta",
+      "favorite": 0
+    },
+    {
+      "name": "MTL",
+      "path": "/token-list/MTL.webp",
+      "fullname": "Metal",
+      "favorite": 0
+    },
+    {
+      "name": "MTLX",
+      "path": "/token-list/MTLX.webp",
+      "fullname": "Mettalex",
+      "favorite": 0
+    },
+    {
+      "name": "MUNCH",
+      "path": "/token-list/MUNCH.webp",
+      "fullname": "MUNCH Token",
+      "favorite": 0
+    },
+    {
+      "name": "mUSD",
+      "path": "/token-list/mUSD.webp",
+      "fullname": "mStable USD",
+      "favorite": 0
+    },
+    {
+      "name": "MUSE",
+      "path": "/token-list/MUSE.webp",
+      "fullname": "Muse",
+      "favorite": 0
+    },
+    {
+      "name": "MVI",
+      "path": "/token-list/MVI.webp",
+      "fullname": "Metaverse Index",
+      "favorite": 0
+    },
+    {
+      "name": "MXT",
+      "path": "/token-list/MXT.webp",
+      "fullname": "MixTrust",
+      "favorite": 0
+    },
+    {
+      "name": "MXX",
+      "path": "/token-list/MXX.webp",
+      "fullname": "Multiplier",
+      "favorite": 0
+    },
+    {
+      "name": "MYB",
+      "path": "/token-list/MYB.webp",
+      "fullname": "MyBit",
+      "favorite": 0
+    },
+    {
+      "name": "MYOBU",
+      "path": "/token-list/MYOBU.webp",
+      "fullname": "My\u014dbu",
+      "favorite": 0
+    },
+    {
+      "name": "NBU",
+      "path": "/token-list/NBU.webp",
+      "fullname": "Nimbus",
+      "favorite": 0
+    },
+    {
+      "name": "NCR",
+      "path": "/token-list/NCR.webp",
+      "fullname": "Neos Credits",
+      "favorite": 0
+    },
+    {
+      "name": "NCT",
+      "path": "/token-list/NCT.webp",
+      "fullname": "NameChangeToken",
+      "favorite": 0
+    },
+    {
+      "name": "NDR",
+      "path": "/token-list/NDR.webp",
+      "fullname": "NodeRunners",
+      "favorite": 0
+    },
+    {
+      "name": "NDX",
+      "path": "/token-list/NDX.webp",
+      "fullname": "Indexed",
+      "favorite": 0
+    },
+    {
+      "name": "NEC",
+      "path": "/token-list/NEC.webp",
+      "fullname": "Ethfinex Nectar Token",
+      "favorite": 0
+    },
+    {
+      "name": "NEXO",
+      "path": "/token-list/NEXO.webp",
+      "fullname": "Nexo",
+      "favorite": 0
+    },
+    {
+      "name": "NFTI",
+      "path": "/token-list/NFTI_2.webp",
+      "fullname": "NFT INDEX",
+      "favorite": 0
+    },
+    {
+      "name": "NFTI",
+      "path": "/token-list/NFTI.webp",
+      "fullname": "Scalara NFT Index",
+      "favorite": 0
+    },
+    {
+      "name": "NFTX",
+      "path": "/token-list/NFTX.webp",
+      "fullname": "NFTX",
+      "favorite": 0
+    },
+    {
+      "name": "NFY",
+      "path": "/token-list/NFY.webp",
+      "fullname": "Non-Fungible Yearn",
+      "favorite": 0
+    },
+    {
+      "name": "NII",
+      "path": "/token-list/NII.webp",
+      "fullname": "Nahmii",
+      "favorite": 0
+    },
+    {
+      "name": "NIL",
+      "path": "/token-list/NIL.webp",
+      "fullname": "nil",
+      "favorite": 0
+    },
+    {
+      "name": "NIOX",
+      "path": "/token-list/NIOX.webp",
+      "fullname": "Autonio",
+      "favorite": 0
+    },
+    {
+      "name": "NKN",
+      "path": "/token-list/NKN.webp",
+      "fullname": "NKN",
+      "favorite": 0
+    },
+    {
+      "name": "NMR",
+      "path": "/token-list/NMR.webp",
+      "fullname": "Numeraire",
+      "favorite": 0
+    },
+    {
+      "name": "NORD",
+      "path": "/token-list/NORD.webp",
+      "fullname": "Nord Token",
+      "favorite": 0
+    },
+    {
+      "name": "NOTE",
+      "path": "/token-list/NOTE.webp",
+      "fullname": "Notional",
+      "favorite": 0
+    },
+    {
+      "name": "NOW",
+      "path": "/token-list/NOW.webp",
+      "fullname": "ChangeNOW",
+      "favorite": 0
+    },
+    {
+      "name": "NPXS",
+      "path": "/token-list/NPXS.webp",
+      "fullname": "Pundi X",
+      "favorite": 0
+    },
+    {
+      "name": "NRCH",
+      "path": "/token-list/NRCH.webp",
+      "fullname": "EnreachDAO",
+      "favorite": 0
+    },
+    {
+      "name": "Nsure",
+      "path": "/token-list/Nsure.webp",
+      "fullname": "Nsure Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "NU",
+      "path": "/token-list/NU.webp",
+      "fullname": "NuCypher",
+      "favorite": 0
+    },
+    {
+      "name": "NUX",
+      "path": "/token-list/NUX.webp",
+      "fullname": "NUX Peanut.trade",
+      "favorite": 0
+    },
+    {
+      "name": "O3",
+      "path": "/token-list/O3.webp",
+      "fullname": "O3 Swap Token",
+      "favorite": 0
+    },
+    {
+      "name": "OCC",
+      "path": "/token-list/OCC.webp",
+      "fullname": "OCC",
+      "favorite": 0
+    },
+    {
+      "name": "OCCT",
+      "path": "/token-list/OCCT.webp",
+      "fullname": "Official Crypto Cowboy Token",
+      "favorite": 0
+    },
+    {
+      "name": "OCEAN",
+      "path": "/token-list/OCEAN.webp",
+      "fullname": "OceanToken",
+      "favorite": 0
+    },
+    {
+      "name": "OCT",
+      "path": "/token-list/OCT.webp",
+      "fullname": "Wrapped OCT",
+      "favorite": 0
+    },
+    {
+      "name": "OCTO",
+      "path": "/token-list/OCTO.webp",
+      "fullname": "Octo.fi",
+      "favorite": 0
+    },
+    {
+      "name": "ODDZ",
+      "path": "/token-list/ODDZ.webp",
+      "fullname": "OddzToken",
+      "favorite": 0
+    },
+    {
+      "name": "OGN",
+      "path": "/token-list/OGN.webp",
+      "fullname": "Origin Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "OHM",
+      "path": "/token-list/OHM.webp",
+      "fullname": "Olympus",
+      "favorite": 0
+    },
+    {
+      "name": "OIN",
+      "path": "/token-list/OIN.webp",
+      "fullname": "oinfinance",
+      "favorite": 0
+    },
+    {
+      "name": "OLY",
+      "path": "/token-list/OLY.webp",
+      "fullname": "Olyseum",
+      "favorite": 0
+    },
+    {
+      "name": "OMG",
+      "path": "/token-list/OMG.webp",
+      "fullname": "OmiseGO",
+      "favorite": 0
+    },
+    {
+      "name": "OMv1",
+      "path": "/token-list/OMv1.webp",
+      "fullname": "OM Token",
+      "favorite": 0
+    },
+    {
+      "name": "OMv2",
+      "path": "/token-list/OMv2.webp",
+      "fullname": "MANTRA DAO",
+      "favorite": 0
+    },
+    {
+      "name": "one1INCH",
+      "path": "/token-list/one1INCH.webp",
+      "fullname": "Stable 1INCH",
+      "favorite": 0
+    },
+    {
+      "name": "ONX",
+      "path": "/token-list/ONX.webp",
+      "fullname": "OnX.finance",
+      "favorite": 0
+    },
+    {
+      "name": "OOKI",
+      "path": "/token-list/OOKI.webp",
+      "fullname": "Ooki Token",
+      "favorite": 0
+    },
+    {
+      "name": "OPEN",
+      "path": "/token-list/OPEN.webp",
+      "fullname": "BBB",
+      "favorite": 0
+    },
+    {
+      "name": "OPIUM",
+      "path": "/token-list/OPIUM.webp",
+      "fullname": "Opium Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "OPIUM_LP_34b7",
+      "path": "/token-list/OPIUM_LP_34b7.webp",
+      "fullname": "Opium USDT Protection v2/USDC",
+      "favorite": 0
+    },
+    {
+      "name": "OPT",
+      "path": "/token-list/OPT.webp",
+      "fullname": "Open Predict Token",
+      "favorite": 0
+    },
+    {
+      "name": "ORAI",
+      "path": "/token-list/ORAI.webp",
+      "fullname": "Oraichain Token",
+      "favorite": 0
+    },
+    {
+      "name": "ORBS",
+      "path": "/token-list/ORBS.webp",
+      "fullname": "Orbs",
+      "favorite": 0
+    },
+    {
+      "name": "ORN",
+      "path": "/token-list/ORN.webp",
+      "fullname": "Orion Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "ORO",
+      "path": "/token-list/ORO.webp",
+      "fullname": "ORO Token",
+      "favorite": 0
+    },
+    {
+      "name": "OUSD",
+      "path": "/token-list/OUSD.webp",
+      "fullname": "Origin Dollar",
+      "favorite": 0
+    },
+    {
+      "name": "OVR",
+      "path": "/token-list/OVR.webp",
+      "fullname": "OVR",
+      "favorite": 0
+    },
+    {
+      "name": "OWL",
+      "path": "/token-list/OWL.webp",
+      "fullname": "OWL Token",
+      "favorite": 0
+    },
+    {
+      "name": "P4C",
+      "path": "/token-list/P4C.webp",
+      "fullname": "Parts of Four Coin",
+      "favorite": 0
+    },
+    {
+      "name": "PAID",
+      "path": "/token-list/PAID.webp",
+      "fullname": "PAID Network",
+      "favorite": 0
+    },
+    {
+      "name": "PAINT",
+      "path": "/token-list/PAINT.webp",
+      "fullname": "Paint",
+      "favorite": 0
+    },
+    {
+      "name": "PAN",
+      "path": "/token-list/PAN.webp",
+      "fullname": "Panvala pan",
+      "favorite": 0
+    },
+    {
+      "name": "PAR",
+      "path": "/token-list/PAR.webp",
+      "fullname": "Parachute",
+      "favorite": 0
+    },
+    {
+      "name": "PAWTH",
+      "path": "/token-list/PAWTH.webp",
+      "fullname": "Pawthereum",
+      "favorite": 0
+    },
+    {
+      "name": "PAXG",
+      "path": "/token-list/PAXG.webp",
+      "fullname": "Paxos Gold",
+      "favorite": 0
+    },
+    {
+      "name": "PBR",
+      "path": "/token-list/PBR.webp",
+      "fullname": "PolkaBridge",
+      "favorite": 0
+    },
+    {
+      "name": "pBTC",
+      "path": "/token-list/pBTC.webp",
+      "fullname": "pTokens BTC",
+      "favorite": 0
+    },
+    {
+      "name": "pBTC35A",
+      "path": "/token-list/pBTC35A.webp",
+      "fullname": "POW BTC-35W/T",
+      "favorite": 0
+    },
+    {
+      "name": "PEEPS",
+      "path": "/token-list/PEEPS.webp",
+      "fullname": "The People\u2019s Coin",
+      "favorite": 0
+    },
+    {
+      "name": "PENDLE",
+      "path": "/token-list/PENDLE.webp",
+      "fullname": "Pendle",
+      "favorite": 0
+    },
+    {
+      "name": "PERL",
+      "path": "/token-list/PERL.webp",
+      "fullname": "Perlin",
+      "favorite": 0
+    },
+    {
+      "name": "PERP",
+      "path": "/token-list/PERP.webp",
+      "fullname": "Perpetual",
+      "favorite": 0
+    },
+    {
+      "name": "PERX",
+      "path": "/token-list/PERX.webp",
+      "fullname": "PeerEx Network",
+      "favorite": 0
+    },
+    {
+      "name": "PHA",
+      "path": "/token-list/PHA.webp",
+      "fullname": "Phala",
+      "favorite": 0
+    },
+    {
+      "name": "PHNX",
+      "path": "/token-list/PHNX.webp",
+      "fullname": "PhoenixDAO",
+      "favorite": 0
+    },
+    {
+      "name": "PICKLE",
+      "path": "/token-list/PICKLE.webp",
+      "fullname": "PickleToken",
+      "favorite": 0
+    },
+    {
+      "name": "PIE",
+      "path": "/token-list/PIE.webp",
+      "fullname": "DeFiPIE Token",
+      "favorite": 0
+    },
+    {
+      "name": "PIPT",
+      "path": "/token-list/PIPT.webp",
+      "fullname": "Power Index Pool Token",
+      "favorite": 0
+    },
+    {
+      "name": "PKF",
+      "path": "/token-list/PKF.webp",
+      "fullname": "PolkaFoundry",
+      "favorite": 0
+    },
+    {
+      "name": "PLOT",
+      "path": "/token-list/PLOT.webp",
+      "fullname": "PLOT",
+      "favorite": 0
+    },
+    {
+      "name": "PLR",
+      "path": "/token-list/PLR.webp",
+      "fullname": "Pillar",
+      "favorite": 0
+    },
+    {
+      "name": "PLU",
+      "path": "/token-list/PLU.webp",
+      "fullname": "Pluton",
+      "favorite": 0
+    },
+    {
+      "name": "PMON",
+      "path": "/token-list/PMON.webp",
+      "fullname": "Polkamon",
+      "favorite": 0
+    },
+    {
+      "name": "PNK",
+      "path": "/token-list/PNK.webp",
+      "fullname": "Kleros",
+      "favorite": 0
+    },
+    {
+      "name": "PNT",
+      "path": "/token-list/PNT.webp",
+      "fullname": "pNetwork Token",
+      "favorite": 0
+    },
+    {
+      "name": "POLK",
+      "path": "/token-list/POLK.webp",
+      "fullname": "Polkamarkets",
+      "favorite": 0
+    },
+    {
+      "name": "POLY",
+      "path": "/token-list/POLY.webp",
+      "fullname": "Polymath",
+      "favorite": 0
+    },
+    {
+      "name": "POND",
+      "path": "/token-list/POND.webp",
+      "fullname": "Marlin POND",
+      "favorite": 0
+    },
+    {
+      "name": "POOL",
+      "path": "/token-list/POOL.webp",
+      "fullname": "PoolTogether",
+      "favorite": 0
+    },
+    {
+      "name": "POOLZ",
+      "path": "/token-list/POOLZ.webp",
+      "fullname": "$Poolz Finance",
+      "favorite": 0
+    },
+    {
+      "name": "POWER",
+      "path": "/token-list/POWER.webp",
+      "fullname": "UniPower",
+      "favorite": 0
+    },
+    {
+      "name": "POWR",
+      "path": "/token-list/POWR.webp",
+      "fullname": "Power Ledger",
+      "favorite": 0
+    },
+    {
+      "name": "PP",
+      "path": "/token-list/PP.webp",
+      "fullname": "Pension Plan",
+      "favorite": 0
+    },
+    {
+      "name": "PPAY",
+      "path": "/token-list/PPAY.webp",
+      "fullname": "Plasma",
+      "favorite": 0
+    },
+    {
+      "name": "PRDX",
+      "path": "/token-list/PRDX.webp",
+      "fullname": "Predix Network",
+      "favorite": 0
+    },
+    {
+      "name": "PRE",
+      "path": "/token-list/PRE.webp",
+      "fullname": "Presearch",
+      "favorite": 0
+    },
+    {
+      "name": "PREMIA",
+      "path": "/token-list/PREMIA.webp",
+      "fullname": "Premia",
+      "favorite": 0
+    },
+    {
+      "name": "PROS",
+      "path": "/token-list/PROS.webp",
+      "fullname": "Prosper",
+      "favorite": 0
+    },
+    {
+      "name": "PRT",
+      "path": "/token-list/PRT.webp",
+      "fullname": "Portion Token",
+      "favorite": 0
+    },
+    {
+      "name": "PSP",
+      "path": "/token-list/PSP.webp",
+      "fullname": "ParaSwap",
+      "favorite": 0
+    },
+    {
+      "name": "PTF",
+      "path": "/token-list/PTF.webp",
+      "fullname": "PowerTrade Fuel Token",
+      "favorite": 0
+    },
+    {
+      "name": "PUSH",
+      "path": "/token-list/PUSH.webp",
+      "fullname": "Ethereum Push Notification Service",
+      "favorite": 0
+    },
+    {
+      "name": "PYLON",
+      "path": "/token-list/PYLON.webp",
+      "fullname": "PYLON",
+      "favorite": 0
+    },
+    {
+      "name": "QNT",
+      "path": "/token-list/QNT.webp",
+      "fullname": "Quant",
+      "favorite": 0
+    },
+    {
+      "name": "QRX",
+      "path": "/token-list/QRX.webp",
+      "fullname": "QuiverX",
+      "favorite": 0
+    },
+    {
+      "name": "QUICK",
+      "path": "/token-list/QUICK.webp",
+      "fullname": "Quickswap",
+      "favorite": 0
+    },
+    {
+      "name": "RAD",
+      "path": "/token-list/RAD.webp",
+      "fullname": "Radicle",
+      "favorite": 0
+    },
+    {
+      "name": "RADAR",
+      "path": "/token-list/RADAR.webp",
+      "fullname": "DappRadar",
+      "favorite": 0
+    },
+    {
+      "name": "RAI",
+      "path": "/token-list/RAI.webp",
+      "fullname": "Rai Reflex Index",
+      "favorite": 0
+    },
+    {
+      "name": "RAMP",
+      "path": "/token-list/RAMP.webp",
+      "fullname": "RAMP DEFI",
+      "favorite": 0
+    },
+    {
+      "name": "RARI",
+      "path": "/token-list/RARI.webp",
+      "fullname": "Rarible",
+      "favorite": 0
+    },
+    {
+      "name": "RAZOR",
+      "path": "/token-list/RAZOR.webp",
+      "fullname": "RAZOR",
+      "favorite": 0
+    },
+    {
+      "name": "RBC",
+      "path": "/token-list/RBC.webp",
+      "fullname": "Rubic",
+      "favorite": 0
+    },
+    {
+      "name": "RBX",
+      "path": "/token-list/RBX.webp",
+      "fullname": "RBX",
+      "favorite": 0
+    },
+    {
+      "name": "RCN",
+      "path": "/token-list/RCN.webp",
+      "fullname": "Ripio",
+      "favorite": 0
+    },
+    {
+      "name": "RDN",
+      "path": "/token-list/RDN.webp",
+      "fullname": "Raiden Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "REDPANDA",
+      "path": "/token-list/REDPANDA.webp",
+      "fullname": "Red Panda",
+      "favorite": 0
+    },
+    {
+      "name": "REEF",
+      "path": "/token-list/REEF.webp",
+      "fullname": "Reef.finance",
+      "favorite": 0
+    },
+    {
+      "name": "REI",
+      "path": "/token-list/REI.webp",
+      "fullname": "Zerogoki Token",
+      "favorite": 0
+    },
+    {
+      "name": "REL",
+      "path": "/token-list/REL.webp",
+      "fullname": "Relevant",
+      "favorite": 0
+    },
+    {
+      "name": "REN",
+      "path": "/token-list/REN.webp",
+      "fullname": "Republic",
+      "favorite": 0
+    },
+    {
+      "name": "renBCH",
+      "path": "/token-list/renBCH.webp",
+      "fullname": "renBCH",
+      "favorite": 0
+    },
+    {
+      "name": "renDOGE",
+      "path": "/token-list/renDOGE.webp",
+      "fullname": "renDOGE",
+      "favorite": 0
+    },
+    {
+      "name": "renZEC",
+      "path": "/token-list/renZEC.webp",
+      "fullname": "renZEC",
+      "favorite": 0
+    },
+    {
+      "name": "REPv2",
+      "path": "/token-list/REPv2.webp",
+      "fullname": "Reputation V2",
+      "favorite": 0
+    },
+    {
+      "name": "REQ",
+      "path": "/token-list/REQ.webp",
+      "fullname": "Request",
+      "favorite": 0
+    },
+    {
+      "name": "rETH",
+      "path": "/token-list/rETH.webp",
+      "fullname": "Rocket Pool ETH",
+      "favorite": 0
+    },
+    {
+      "name": "REVV",
+      "path": "/token-list/REVV.webp",
+      "fullname": "REVV",
+      "favorite": 0
+    },
+    {
+      "name": "RFI",
+      "path": "/token-list/RFI.webp",
+      "fullname": "reflect.finance",
+      "favorite": 0
+    },
+    {
+      "name": "RFOX",
+      "path": "/token-list/RFOX.webp",
+      "fullname": "RFOX",
+      "favorite": 0
+    },
+    {
+      "name": "RFuel",
+      "path": "/token-list/RFuel.webp",
+      "fullname": "Rio Fuel Token",
+      "favorite": 0
+    },
+    {
+      "name": "RGT",
+      "path": "/token-list/RGT.webp",
+      "fullname": "Rari Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "RING",
+      "path": "/token-list/RING.webp",
+      "fullname": "Darwinia Network Native Token",
+      "favorite": 0
+    },
+    {
+      "name": "RLC",
+      "path": "/token-list/RLC.webp",
+      "fullname": "iExec RLC",
+      "favorite": 0
+    },
+    {
+      "name": "RLY",
+      "path": "/token-list/RLY.webp",
+      "fullname": "Rally",
+      "favorite": 0
+    },
+    {
+      "name": "RMPL",
+      "path": "/token-list/RMPL.webp",
+      "fullname": "RMPL",
+      "favorite": 0
+    },
+    {
+      "name": "RNBW",
+      "path": "/token-list/RNBW.webp",
+      "fullname": "Rainbow Token",
+      "favorite": 0
+    },
+    {
+      "name": "RNDR",
+      "path": "/token-list/RNDR.webp",
+      "fullname": "Render Token",
+      "favorite": 0
+    },
+    {
+      "name": "ROBOT",
+      "path": "/token-list/ROBOT.webp",
+      "fullname": "MetaFactory",
+      "favorite": 0
+    },
+    {
+      "name": "ROOBEE",
+      "path": "/token-list/ROOBEE.webp",
+      "fullname": "ROOBEE",
+      "favorite": 0
+    },
+    {
+      "name": "ROOK",
+      "path": "/token-list/ROOK.webp",
+      "fullname": "ROOK",
+      "favorite": 0
+    },
+    {
+      "name": "ROOT",
+      "path": "/token-list/ROOT.webp",
+      "fullname": "RootKit",
+      "favorite": 0
+    },
+    {
+      "name": "ROTTS",
+      "path": "/token-list/ROTTS.webp",
+      "fullname": "ROTTSCHILD.com",
+      "favorite": 0
+    },
+    {
+      "name": "ROUTE",
+      "path": "/token-list/ROUTE.webp",
+      "fullname": "Route",
+      "favorite": 0
+    },
+    {
+      "name": "ROYA",
+      "path": "/token-list/ROYA.webp",
+      "fullname": "Royale",
+      "favorite": 0
+    },
+    {
+      "name": "RPL",
+      "path": "/token-list/RPL.webp",
+      "fullname": "Rocket Pool",
+      "favorite": 0
+    },
+    {
+      "name": "RSR",
+      "path": "/token-list/RSR.webp",
+      "fullname": "Reserve Rights",
+      "favorite": 0
+    },
+    {
+      "name": "RSV",
+      "path": "/token-list/RSV.webp",
+      "fullname": "Reserve",
+      "favorite": 0
+    },
+    {
+      "name": "RULER",
+      "path": "/token-list/RULER.webp",
+      "fullname": "Ruler Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "RUNE",
+      "path": "/token-list/RUNE.webp",
+      "fullname": "THORChain ETH.RUNE",
+      "favorite": 0
+    },
+    {
+      "name": "RWS",
+      "path": "/token-list/RWS.webp",
+      "fullname": "Robonomics Web Services :: V1",
+      "favorite": 0
+    },
+    {
+      "name": "SAI",
+      "path": "/token-list/SAI.webp",
+      "fullname": "Sai Stablecoin",
+      "favorite": 0
+    },
+    {
+      "name": "SAITAMA",
+      "path": "/token-list/SAITAMA.webp",
+      "fullname": "Saitama Inu",
+      "favorite": 0
+    },
+    {
+      "name": "SALT",
+      "path": "/token-list/SALT.webp",
+      "fullname": "Salt",
+      "favorite": 0
+    },
+    {
+      "name": "SAN",
+      "path": "/token-list/SAN.webp",
+      "fullname": "Santiment",
+      "favorite": 0
+    },
+    {
+      "name": "SAND",
+      "path": "/token-list/SAND.webp",
+      "fullname": "SAND",
+      "favorite": 0
+    },
+    {
+      "name": "SARCO",
+      "path": "/token-list/SARCO.webp",
+      "fullname": "Sarcophagus",
+      "favorite": 0
+    },
+    {
+      "name": "SASHIMI",
+      "path": "/token-list/SASHIMI.webp",
+      "fullname": "SashimiToken",
+      "favorite": 0
+    },
+    {
+      "name": "sBTC",
+      "path": "/token-list/sBTC.webp",
+      "fullname": "Synth sBTC",
+      "favorite": 0
+    },
+    {
+      "name": "SCA",
+      "path": "/token-list/SCA.webp",
+      "fullname": "ScaleSwapToken",
+      "favorite": 0
+    },
+    {
+      "name": "SCIFI",
+      "path": "/token-list/SCIFI.webp",
+      "fullname": "ScifiToken",
+      "favorite": 0
+    },
+    {
+      "name": "SCT",
+      "path": "/token-list/SCT.webp",
+      "fullname": "Clash Token",
+      "favorite": 0
+    },
+    {
+      "name": "SDT",
+      "path": "/token-list/SDT.webp",
+      "fullname": "Stake DAO Token",
+      "favorite": 0
+    },
+    {
+      "name": "SEEN",
+      "path": "/token-list/SEEN.webp",
+      "fullname": "seen.haus",
+      "favorite": 0
+    },
+    {
+      "name": "sETH",
+      "path": "/token-list/sETH.webp",
+      "fullname": "Synth sETH",
+      "favorite": 0
+    },
+    {
+      "name": "sEUR",
+      "path": "/token-list/sEUR.webp",
+      "fullname": "Synth sEUR",
+      "favorite": 0
+    },
+    {
+      "name": "SPICE",
+      "path": "/token-list/SPICE.webp",
+      "fullname": "Spice",
+      "favorite": 0
+    },
+    {
+      "name": "SHAKE",
+      "path": "/token-list/SHAKE.webp",
+      "fullname": "SHAKE token by SpaceSwap v2",
+      "favorite": 0
+    },
+    {
+      "name": "SHARE",
+      "path": "/token-list/SHARE.webp",
+      "fullname": "Seigniorage Shares",
+      "favorite": 0
+    },
+    {
+      "name": "SHIB",
+      "path": "/token-list/SHIB.webp",
+      "fullname": "SHIBA INU",
+      "favorite": 0
+    },
+    {
+      "name": "SHIBAKEN",
+      "path": "/token-list/SHIBAKEN.webp",
+      "fullname": "ShibaKen.Finance",
+      "favorite": 0
+    },
+    {
+      "name": "SHIBLI",
+      "path": "/token-list/SHIBLI.webp",
+      "fullname": "Studio Shibli",
+      "favorite": 0
+    },
+    {
+      "name": "SHIH",
+      "path": "/token-list/SHIH.webp",
+      "fullname": "Shih Tzu",
+      "favorite": 0
+    },
+    {
+      "name": "SHOPX",
+      "path": "/token-list/SHOPX.webp",
+      "fullname": "SPLYT SHOPX",
+      "favorite": 0
+    },
+    {
+      "name": "SHROOM",
+      "path": "/token-list/SHROOM.webp",
+      "fullname": "shroom.finance",
+      "favorite": 0
+    },
+    {
+      "name": "SHUF",
+      "path": "/token-list/SHUF.webp",
+      "fullname": "Shuffle.Monster V3",
+      "favorite": 0
+    },
+    {
+      "name": "SI",
+      "path": "/token-list/SI.webp",
+      "fullname": "SIREN",
+      "favorite": 0
+    },
+    {
+      "name": "SIG",
+      "path": "/token-list/SIG.webp",
+      "fullname": "xSigma",
+      "favorite": 0
+    },
+    {
+      "name": "SIS",
+      "path": "/token-list/SIS.webp",
+      "fullname": "Symbiosis",
+      "favorite": 0
+    },
+    {
+      "name": "Skey",
+      "path": "/token-list/Skey.webp",
+      "fullname": "SmartKey",
+      "favorite": 0
+    },
+    {
+      "name": "SKL",
+      "path": "/token-list/SKL.webp",
+      "fullname": "SKALE",
+      "favorite": 0
+    },
+    {
+      "name": "SLAB",
+      "path": "/token-list/SLAB.webp",
+      "fullname": "SLINK LABS",
+      "favorite": 0
+    },
+    {
+      "name": "SMARTCREDIT",
+      "path": "/token-list/SMARTCREDIT.webp",
+      "fullname": "SMARTCREDIT Token",
+      "favorite": 0
+    },
+    {
+      "name": "SMOL",
+      "path": "/token-list/SMOL.webp",
+      "fullname": "smol",
+      "favorite": 0
+    },
+    {
+      "name": "SNFT",
+      "path": "/token-list/SNFT.webp",
+      "fullname": "SeedSwap Token",
+      "favorite": 0
+    },
+    {
+      "name": "SNOW",
+      "path": "/token-list/SNOW.webp",
+      "fullname": "SnowSwap",
+      "favorite": 0
+    },
+    {
+      "name": "SNT",
+      "path": "/token-list/SNT.webp",
+      "fullname": "Status",
+      "favorite": 0
+    },
+    {
+      "name": "SNTVT",
+      "path": "/token-list/SNTVT.webp",
+      "fullname": "Sentivate",
+      "favorite": 0
+    },
+    {
+      "name": "SOAR",
+      "path": "/token-list/SOAR.webp",
+      "fullname": "SOAR.FI",
+      "favorite": 0
+    },
+    {
+      "name": "SOCKS",
+      "path": "/token-list/SOCKS.webp",
+      "fullname": "Unisocks Edition 0",
+      "favorite": 0
+    },
+    {
+      "name": "SOS",
+      "path": "/token-list/SOS.webp",
+      "fullname": "SOS",
+      "favorite": 0
+    },
+    {
+      "name": "SOTA",
+      "path": "/token-list/SOTA.webp",
+      "fullname": "SOTA",
+      "favorite": 0
+    },
+    {
+      "name": "SOUL",
+      "path": "/token-list/SOUL.webp",
+      "fullname": "Phantasma Stake",
+      "favorite": 0
+    },
+    {
+      "name": "SPANK",
+      "path": "/token-list/SPANK.webp",
+      "fullname": "SPANK",
+      "favorite": 0
+    },
+    {
+      "name": "SPC",
+      "path": "/token-list/SPC.webp",
+      "fullname": "SpaceChainV2",
+      "favorite": 0
+    },
+    {
+      "name": "SPELL",
+      "path": "/token-list/SPELL.webp",
+      "fullname": "Spell Token",
+      "favorite": 0
+    },
+    {
+      "name": "SPH",
+      "path": "/token-list/SPH.webp",
+      "fullname": "Spheroid",
+      "favorite": 0
+    },
+    {
+      "name": "SPI_Shopping",
+      "path": "/token-list/SPI_Shopping.webp",
+      "fullname": "Shopping.io",
+      "favorite": 0
+    },
+    {
+      "name": "SPN",
+      "path": "/token-list/SPN.webp",
+      "fullname": "Sapien Network",
+      "favorite": 0
+    },
+    {
+      "name": "SRK",
+      "path": "/token-list/SRK.webp",
+      "fullname": "SparkPoint",
+      "favorite": 0
+    },
+    {
+      "name": "SRM",
+      "path": "/token-list/SRM.webp",
+      "fullname": "Serum",
+      "favorite": 0
+    },
+    {
+      "name": "SRN",
+      "path": "/token-list/SRN.webp",
+      "fullname": "Sirin Labs",
+      "favorite": 0
+    },
+    {
+      "name": "STA",
+      "path": "/token-list/STA.webp",
+      "fullname": "Statera",
+      "favorite": 0
+    },
+    {
+      "name": "STABLEx",
+      "path": "/token-list/STABLEx.webp",
+      "fullname": "ARC STABLEx",
+      "favorite": 0
+    },
+    {
+      "name": "STAK",
+      "path": "/token-list/STAK.webp",
+      "fullname": "Jigstack",
+      "favorite": 0
+    },
+    {
+      "name": "STAKE",
+      "path": "/token-list/STAKE.webp",
+      "fullname": "STAKE",
+      "favorite": 0
+    },
+    {
+      "name": "STARL",
+      "path": "/token-list/STARL.webp",
+      "fullname": "StarLink",
+      "favorite": 0
+    },
+    {
+      "name": "STBU",
+      "path": "/token-list/STBU.webp",
+      "fullname": "Stobox Token",
+      "favorite": 0
+    },
+    {
+      "name": "STBZ",
+      "path": "/token-list/STBZ.webp",
+      "fullname": "Stabilize Token",
+      "favorite": 0
+    },
+    {
+      "name": "STC",
+      "path": "/token-list/STC.webp",
+      "fullname": "Student Coin",
+      "favorite": 0
+    },
+    {
+      "name": "STEP",
+      "path": "/token-list/STEP.webp",
+      "fullname": "1Step.finance",
+      "favorite": 0
+    },
+    {
+      "name": "stETH",
+      "path": "/token-list/stETH.webp",
+      "fullname": "stETH",
+      "favorite": 0
+    },
+    {
+      "name": "STG",
+      "path": "/token-list/STG.webp",
+      "fullname": "StargateToken",
+      "favorite": 0
+    },
+    {
+      "name": "stkATOM",
+      "path": "/token-list/stkATOM.webp",
+      "fullname": "pSTAKE Staked ATOM",
+      "favorite": 0
+    },
+    {
+      "name": "STMX",
+      "path": "/token-list/STMX.webp",
+      "fullname": "Kyber StormX Token",
+      "favorite": 0
+    },
+    {
+      "name": "STORJ",
+      "path": "/token-list/STORJ.webp",
+      "fullname": "Storj",
+      "favorite": 0
+    },
+    {
+      "name": "STRONG",
+      "path": "/token-list/STRONG.webp",
+      "fullname": "Strong",
+      "favorite": 0
+    },
+    {
+      "name": "STX",
+      "path": "/token-list/STX.webp",
+      "fullname": "Stox",
+      "favorite": 0
+    },
+    {
+      "name": "SUPER",
+      "path": "/token-list/SUPER.webp",
+      "fullname": "SuperFarm",
+      "favorite": 0
+    },
+    {
+      "name": "SUPERBID",
+      "path": "/token-list/SUPERBID.webp",
+      "fullname": "SuperBid",
+      "favorite": 0
+    },
+    {
+      "name": "SURF",
+      "path": "/token-list/SURF.webp",
+      "fullname": "SURF.Finance",
+      "favorite": 0
+    },
+    {
+      "name": "SWAG",
+      "path": "/token-list/SWAG.webp",
+      "fullname": "Swag Token",
+      "favorite": 0
+    },
+    {
+      "name": "SWAP",
+      "path": "/token-list/SWAP.webp",
+      "fullname": "TrustSwap Token",
+      "favorite": 0
+    },
+    {
+      "name": "SWAPP",
+      "path": "/token-list/SWAPP.webp",
+      "fullname": "Swapp Token",
+      "favorite": 0
+    },
+    {
+      "name": "SWFL",
+      "path": "/token-list/SWFL.webp",
+      "fullname": "Swapfolio",
+      "favorite": 0
+    },
+    {
+      "name": "SWISE",
+      "path": "/token-list/SWISE.webp",
+      "fullname": "StakeWise",
+      "favorite": 0
+    },
+    {
+      "name": "SWM",
+      "path": "/token-list/SWM.webp",
+      "fullname": "SWARM",
+      "favorite": 0
+    },
+    {
+      "name": "SWRV",
+      "path": "/token-list/SWRV.webp",
+      "fullname": "Swerve DAO Token",
+      "favorite": 0
+    },
+    {
+      "name": "SXP",
+      "path": "/token-list/SXP.webp",
+      "fullname": "Swipe",
+      "favorite": 0
+    },
+    {
+      "name": "SYLO",
+      "path": "/token-list/SYLO.webp",
+      "fullname": "Sylo",
+      "favorite": 0
+    },
+    {
+      "name": "SYN",
+      "path": "/token-list/SYN.webp",
+      "fullname": "Synapse",
+      "favorite": 0
+    },
+    {
+      "name": "SYNC",
+      "path": "/token-list/SYNC.webp",
+      "fullname": "SYNC",
+      "favorite": 0
+    },
+    {
+      "name": "T",
+      "path": "/token-list/T.webp",
+      "fullname": "Threshold Network Token",
+      "favorite": 0
+    },
+    {
+      "name": "TACO",
+      "path": "/token-list/TACO.webp",
+      "fullname": "Tacos",
+      "favorite": 0
+    },
+    {
+      "name": "TANGO",
+      "path": "/token-list/TANGO.webp",
+      "fullname": "keyTango Token",
+      "favorite": 0
+    },
+    {
+      "name": "TAP",
+      "path": "/token-list/TAP.webp",
+      "fullname": "Tapmydata",
+      "favorite": 0
+    },
+    {
+      "name": "tBTC",
+      "path": "/token-list/tBTC.webp",
+      "fullname": "tBTC",
+      "favorite": 0
+    },
+    {
+      "name": "TCAP",
+      "path": "/token-list/TCAP.webp",
+      "fullname": "TCAP Token",
+      "favorite": 0
+    },
+    {
+      "name": "TEL",
+      "path": "/token-list/TEL.webp",
+      "fullname": "Telcoin",
+      "favorite": 0
+    },
+    {
+      "name": "TEMP",
+      "path": "/token-list/TEMP.webp",
+      "fullname": "Tempus",
+      "favorite": 0
+    },
+    {
+      "name": "TFT",
+      "path": "/token-list/TFT.webp",
+      "fullname": "The Famous Token",
+      "favorite": 0
+    },
+    {
+      "name": "TGBP",
+      "path": "/token-list/TGBP.webp",
+      "fullname": "TrueGBP",
+      "favorite": 0
+    },
+    {
+      "name": "THOR",
+      "path": "/token-list/THOR.webp",
+      "fullname": "THORSwap Token",
+      "favorite": 0
+    },
+    {
+      "name": "TIDAL",
+      "path": "/token-list/TIDAL.webp",
+      "fullname": "Tidal Token",
+      "favorite": 0
+    },
+    {
+      "name": "TIME",
+      "path": "/token-list/TIME.webp",
+      "fullname": "ChronoTech Token",
+      "favorite": 0
+    },
+    {
+      "name": "TKING",
+      "path": "/token-list/TKING.webp",
+      "fullname": "Tiger King",
+      "favorite": 0
+    },
+    {
+      "name": "TKN",
+      "path": "/token-list/TKN.webp",
+      "fullname": "Monolith",
+      "favorite": 0
+    },
+    {
+      "name": "TMM",
+      "path": "/token-list/TMM.webp",
+      "fullname": "Take My Muffin",
+      "favorite": 0
+    },
+    {
+      "name": "TOKE",
+      "path": "/token-list/TOKE.webp",
+      "fullname": "Tokemak",
+      "favorite": 0
+    },
+    {
+      "name": "TOMOE",
+      "path": "/token-list/TOMOE.webp",
+      "fullname": "TomoChain",
+      "favorite": 0
+    },
+    {
+      "name": "TONCOIN",
+      "path": "/token-list/TONCOIN.webp",
+      "fullname": "Wrapped TON Coin",
+      "favorite": 0
+    },
+    {
+      "name": "TONE",
+      "path": "/token-list/TONE.webp",
+      "fullname": "TE-FOOD/TustChain",
+      "favorite": 0
+    },
+    {
+      "name": "TORN",
+      "path": "/token-list/TORN.webp",
+      "fullname": "TornadoCash",
+      "favorite": 0
+    },
+    {
+      "name": "TOWER",
+      "path": "/token-list/TOWER.webp",
+      "fullname": "TOWER",
+      "favorite": 0
+    },
+    {
+      "name": "TRAC",
+      "path": "/token-list/TRAC.webp",
+      "fullname": "Trace",
+      "favorite": 0
+    },
+    {
+      "name": "TRADE",
+      "path": "/token-list/TRADE.webp",
+      "fullname": "UniTrade",
+      "favorite": 0
+    },
+    {
+      "name": "TRB",
+      "path": "/token-list/TRB.webp",
+      "fullname": "Tellor Tributes",
+      "favorite": 0
+    },
+    {
+      "name": "TRIBE",
+      "path": "/token-list/TRIBE.webp",
+      "fullname": "Tribe",
+      "favorite": 0
+    },
+    {
+      "name": "TRND",
+      "path": "/token-list/TRND.webp",
+      "fullname": "Trendering",
+      "favorite": 0
+    },
+    {
+      "name": "TRU",
+      "path": "/token-list/TRU.webp",
+      "fullname": "TrustToken",
+      "favorite": 0
+    },
+    {
+      "name": "TRU_Truebit",
+      "path": "/token-list/TRU_Truebit.webp",
+      "fullname": "Truebit",
+      "favorite": 0
+    },
+    {
+      "name": "TRUST",
+      "path": "/token-list/TRUST.webp",
+      "fullname": "TRUST DAO",
+      "favorite": 0
+    },
+    {
+      "name": "TVK",
+      "path": "/token-list/TVK.webp",
+      "fullname": "Terra Virtua Kolect",
+      "favorite": 0
+    },
+    {
+      "name": "TXL",
+      "path": "/token-list/TXL.webp",
+      "fullname": "Tixl Token",
+      "favorite": 0
+    },
+    {
+      "name": "UBI",
+      "path": "/token-list/UBI.webp",
+      "fullname": "Universal Basic Income",
+      "favorite": 0
+    },
+    {
+      "name": "UBT",
+      "path": "/token-list/UBT.webp",
+      "fullname": "UniBright",
+      "favorite": 0
+    },
+    {
+      "name": "UBXT",
+      "path": "/token-list/UBXT.webp",
+      "fullname": "UpBots",
+      "favorite": 0
+    },
+    {
+      "name": "uDOO",
+      "path": "/token-list/uDOO.webp",
+      "fullname": "uDOO",
+      "favorite": 0
+    },
+    {
+      "name": "UDT",
+      "path": "/token-list/UDT.webp",
+      "fullname": "Unlock Discount Token",
+      "favorite": 0
+    },
+    {
+      "name": "UFO",
+      "path": "/token-list/UFO.webp",
+      "fullname": "THE TRUTH",
+      "favorite": 0
+    },
+    {
+      "name": "UFT",
+      "path": "/token-list/UFT.webp",
+      "fullname": "UniLend Finance Token",
+      "favorite": 0
+    },
+    {
+      "name": "UMA",
+      "path": "/token-list/UMA.webp",
+      "fullname": "UMA Voting Token v1",
+      "favorite": 0
+    },
+    {
+      "name": "UMB",
+      "path": "/token-list/UMB.webp",
+      "fullname": "Umbrella",
+      "favorite": 0
+    },
+    {
+      "name": "UMI",
+      "path": "/token-list/UMI.webp",
+      "fullname": "UmiToken",
+      "favorite": 0
+    },
+    {
+      "name": "UMX",
+      "path": "/token-list/UMX.webp",
+      "fullname": "unimex network",
+      "favorite": 0
+    },
+    {
+      "name": "UNCX",
+      "path": "/token-list/UNCX.webp",
+      "fullname": "UniCrypt",
+      "favorite": 0
+    },
+    {
+      "name": "UniFi",
+      "path": "/token-list/UniFi.webp",
+      "fullname": "UniFi",
+      "favorite": 0
+    },
+    {
+      "name": "UNISTAKE",
+      "path": "/token-list/UNISTAKE.webp",
+      "fullname": "Unistake",
+      "favorite": 0
+    },
+    {
+      "name": "UNN",
+      "path": "/token-list/UNN.webp",
+      "fullname": "UNION Protocol Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "UNO",
+      "path": "/token-list/UNO.webp",
+      "fullname": "UnoRe",
+      "favorite": 0
+    },
+    {
+      "name": "UNV",
+      "path": "/token-list/UNV.webp",
+      "fullname": "Unvest",
+      "favorite": 0
+    },
+    {
+      "name": "UOS",
+      "path": "/token-list/UOS.webp",
+      "fullname": "Ultra Token",
+      "favorite": 0
+    },
+    {
+      "name": "UPI",
+      "path": "/token-list/UPI.webp",
+      "fullname": "Pawtocol Network UPI Token",
+      "favorite": 0
+    },
+    {
+      "name": "URQA",
+      "path": "/token-list/URQA.webp",
+      "fullname": "UREEQA Token",
+      "favorite": 0
+    },
+    {
+      "name": "USDB",
+      "path": "/token-list/USDB.webp",
+      "fullname": "USDB",
+      "favorite": 0
+    },
+    {
+      "name": "USDFL",
+      "path": "/token-list/USDFL.webp",
+      "fullname": "USDFreeLiquidity",
+      "favorite": 0
+    },
+    {
+      "name": "USDK",
+      "path": "/token-list/USDK.webp",
+      "fullname": "USDK",
+      "favorite": 0
+    },
+    {
+      "name": "USDN",
+      "path": "/token-list/USDN.webp",
+      "fullname": "Neutrino",
+      "favorite": 0
+    },
+    {
+      "name": "USDP",
+      "path": "/token-list/USDP.webp",
+      "fullname": "Pax Dollar",
+      "favorite": 0
+    },
+    {
+      "name": "USDP_2",
+      "path": "/token-list/USDP_2.webp",
+      "fullname": "USDP Stablecoin",
+      "favorite": 0
+    },
+    {
+      "name": "USDS",
+      "path": "/token-list/USDS.webp",
+      "fullname": "StableUSD",
+      "favorite": 0
+    },
+    {
+      "name": "UST",
+      "path": "/token-list/UST.webp",
+      "fullname": "Wrapped UST Token",
+      "favorite": 0
+    },
+    {
+      "name": "UTK",
+      "path": "/token-list/UTK.webp",
+      "fullname": "Utrust Token",
+      "favorite": 0
+    },
+    {
+      "name": "UTU",
+      "path": "/token-list/UTU.webp",
+      "fullname": "UTU Coin",
+      "favorite": 0
+    },
+    {
+      "name": "VADER",
+      "path": "/token-list/VADER.webp",
+      "fullname": "Vader",
+      "favorite": 0
+    },
+    {
+      "name": "VAL",
+      "path": "/token-list/VAL.webp",
+      "fullname": "Sora Validator Token",
+      "favorite": 0
+    },
+    {
+      "name": "vBNT",
+      "path": "/token-list/vBNT.webp",
+      "fullname": "Bancor Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "VEE",
+      "path": "/token-list/VEE.webp",
+      "fullname": "BLOCKv",
+      "favorite": 0
+    },
+    {
+      "name": "vETH",
+      "path": "/token-list/vETH.webp",
+      "fullname": "Voucher Ethereum",
+      "favorite": 0
+    },
+    {
+      "name": "VGX",
+      "path": "/token-list/VGX.webp",
+      "fullname": "Voyager Token",
+      "favorite": 0
+    },
+    {
+      "name": "VIB",
+      "path": "/token-list/VIB.webp",
+      "fullname": "Viberate",
+      "favorite": 0
+    },
+    {
+      "name": "VIDT",
+      "path": "/token-list/VIDT.webp",
+      "fullname": "VIDT Datalink",
+      "favorite": 0
+    },
+    {
+      "name": "VIDYA",
+      "path": "/token-list/VIDYA.webp",
+      "fullname": "Vidya",
+      "favorite": 0
+    },
+    {
+      "name": "VLT",
+      "path": "/token-list/VLT.webp",
+      "fullname": "Bankroll Vault",
+      "favorite": 0
+    },
+    {
+      "name": "VOICE",
+      "path": "/token-list/VOICE.webp",
+      "fullname": "Voice Token",
+      "favorite": 0
+    },
+    {
+      "name": "VOL",
+      "path": "/token-list/VOL.webp",
+      "fullname": "Volatility Protocol Token",
+      "favorite": 0
+    },
+    {
+      "name": "VRA",
+      "path": "/token-list/VRA.webp",
+      "fullname": "VERA",
+      "favorite": 0
+    },
+    {
+      "name": "VRX",
+      "path": "/token-list/VRX.webp",
+      "fullname": "Verox",
+      "favorite": 0
+    },
+    {
+      "name": "VSN",
+      "path": "/token-list/VSN.webp",
+      "fullname": "Vision Network",
+      "favorite": 0
+    },
+    {
+      "name": "VSP",
+      "path": "/token-list/VSP.webp",
+      "fullname": "VesperToken",
+      "favorite": 0
+    },
+    {
+      "name": "VTX",
+      "path": "/token-list/VTX.webp",
+      "fullname": "Vortex DeFi",
+      "favorite": 0
+    },
+    {
+      "name": "VUSD",
+      "path": "/token-list/VUSD.webp",
+      "fullname": "VUSD",
+      "favorite": 0
+    },
+    {
+      "name": "vVSP",
+      "path": "/token-list/vVSP.webp",
+      "fullname": "vVSP pool",
+      "favorite": 0
+    },
+    {
+      "name": "VXL",
+      "path": "/token-list/VXL.webp",
+      "fullname": "Voxel X Network",
+      "favorite": 0
+    },
+    {
+      "name": "wANATHA",
+      "path": "/token-list/wANATHA.webp",
+      "fullname": "Wrapped ANATHA",
+      "favorite": 0
+    },
+    {
+      "name": "WARP",
+      "path": "/token-list/WARP.webp",
+      "fullname": "Warp Token",
+      "favorite": 0
+    },
+    {
+      "name": "WAXE",
+      "path": "/token-list/WAXE.webp",
+      "fullname": "WAX Economic Token",
+      "favorite": 0
+    },
+    {
+      "name": "wCFG",
+      "path": "/token-list/wCFG.webp",
+      "fullname": "Wrapped Centrifuge",
+      "favorite": 0
+    },
+    {
+      "name": "wDGLD",
+      "path": "/token-list/wDGLD.webp",
+      "fullname": "wrapped-DGLD",
+      "favorite": 0
+    },
+    {
+      "name": "WFLOW",
+      "path": "/token-list/WFLOW.webp",
+      "fullname": "Wrapped Flow",
+      "favorite": 0
+    },
+    {
+      "name": "WHITE",
+      "path": "/token-list/WHITE.webp",
+      "fullname": "Whiteheart Token",
+      "favorite": 0
+    },
+    {
+      "name": "WISE",
+      "path": "/token-list/WISE.webp",
+      "fullname": "Wise Token",
+      "favorite": 0
+    },
+    {
+      "name": "wNXM",
+      "path": "/token-list/wNXM.webp",
+      "fullname": "Wrapped NXM",
+      "favorite": 0
+    },
+    {
+      "name": "WOO",
+      "path": "/token-list/WOO.webp",
+      "fullname": "Wootrade Network",
+      "favorite": 0
+    },
+    {
+      "name": "WOZX",
+      "path": "/token-list/WOZX.webp",
+      "fullname": "EFFORCE IEO",
+      "favorite": 0
+    },
+    {
+      "name": "WRLD",
+      "path": "/token-list/WRLD.webp",
+      "fullname": "NFT Worlds",
+      "favorite": 0
+    },
+    {
+      "name": "wstETH",
+      "path": "/token-list/wstETH.webp",
+      "fullname": "Wrapped liquid staked Ether 2.0",
+      "favorite": 0
+    },
+    {
+      "name": "WTF",
+      "path": "/token-list/WTF.webp",
+      "fullname": "fees.wtf",
+      "favorite": 0
+    },
+    {
+      "name": "WXRP",
+      "path": "/token-list/WXRP.webp",
+      "fullname": "Wrapped XRP",
+      "favorite": 0
+    },
+    {
+      "name": "WXT",
+      "path": "/token-list/WXT.webp",
+      "fullname": "Wirex Token",
+      "favorite": 0
+    },
+    {
+      "name": "X2Y2",
+      "path": "/token-list/X2Y2.webp",
+      "fullname": "X2Y2Token",
+      "favorite": 0
+    },
+    {
+      "name": "XAMP",
+      "path": "/token-list/XAMP.webp",
+      "fullname": "Antiample",
+      "favorite": 0
+    },
+    {
+      "name": "XBP",
+      "path": "/token-list/XBP.webp",
+      "fullname": "BlitzPredict",
+      "favorite": 0
+    },
+    {
+      "name": "xBTC",
+      "path": "/token-list/xBTC.webp",
+      "fullname": "xBTC",
+      "favorite": 0
+    },
+    {
+      "name": "XCHF",
+      "path": "/token-list/XCHF.webp",
+      "fullname": "CryptoFranc",
+      "favorite": 0
+    },
+    {
+      "name": "XCUR",
+      "path": "/token-list/XCUR.webp",
+      "fullname": "Curate",
+      "favorite": 0
+    },
+    {
+      "name": "XDB",
+      "path": "/token-list/XDB.webp",
+      "fullname": "digitalbits",
+      "favorite": 0
+    },
+    {
+      "name": "XDEX",
+      "path": "/token-list/XDEX.webp",
+      "fullname": "XDEFI Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "XED",
+      "path": "/token-list/XED.webp",
+      "fullname": "Exeedme",
+      "favorite": 0
+    },
+    {
+      "name": "XEND",
+      "path": "/token-list/XEND.webp",
+      "fullname": "XEND",
+      "favorite": 0
+    },
+    {
+      "name": "XFT",
+      "path": "/token-list/XFT.webp",
+      "fullname": "Offshift",
+      "favorite": 0
+    },
+    {
+      "name": "xFUND",
+      "path": "/token-list/xFUND.webp",
+      "fullname": "unification.com/xfund",
+      "favorite": 0
+    },
+    {
+      "name": "xINCHa",
+      "path": "/token-list/xINCHa.webp",
+      "fullname": "xINCH",
+      "favorite": 0
+    },
+    {
+      "name": "XIO",
+      "path": "/token-list/XIO.webp",
+      "fullname": "XIO Network",
+      "favorite": 0
+    },
+    {
+      "name": "XNK",
+      "path": "/token-list/XNK.webp",
+      "fullname": "Ink Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "XOR",
+      "path": "/token-list/XOR.webp",
+      "fullname": "Sora Token",
+      "favorite": 0
+    },
+    {
+      "name": "XPAT",
+      "path": "/token-list/XPAT.webp",
+      "fullname": "Bitnation",
+      "favorite": 0
+    },
+    {
+      "name": "XPR",
+      "path": "/token-list/XPR.webp",
+      "fullname": "Proton",
+      "favorite": 0
+    },
+    {
+      "name": "XQC",
+      "path": "/token-list/XQC.webp",
+      "fullname": "Quras Token",
+      "favorite": 0
+    },
+    {
+      "name": "XRT",
+      "path": "/token-list/XRT.webp",
+      "fullname": "Robonomics",
+      "favorite": 0
+    },
+    {
+      "name": "XSGD",
+      "path": "/token-list/XSGD.webp",
+      "fullname": "XSGD",
+      "favorite": 0
+    },
+    {
+      "name": "xSUSHI",
+      "path": "/token-list/xSUSHI.webp",
+      "fullname": "SushiBar",
+      "favorite": 0
+    },
+    {
+      "name": "XTK",
+      "path": "/token-list/XTK.webp",
+      "fullname": "xToken",
+      "favorite": 0
+    },
+    {
+      "name": "XYO",
+      "path": "/token-list/XYO.webp",
+      "fullname": "XY Oracle",
+      "favorite": 0
+    },
+    {
+      "name": "XYZ",
+      "path": "/token-list/XYZ.webp",
+      "fullname": "XYZ Governance Token",
+      "favorite": 0
+    },
+    {
+      "name": "YAM",
+      "path": "/token-list/YAM.webp",
+      "fullname": "YAM",
+      "favorite": 0
+    },
+    {
+      "name": "YAXIS",
+      "path": "/token-list/YAXIS.webp",
+      "fullname": "yAxis V2",
+      "favorite": 0
+    },
+    {
+      "name": "yBTC",
+      "path": "/token-list/yBTC.webp",
+      "fullname": "iearn WBTC",
+      "favorite": 0
+    },
+    {
+      "name": "yCurve",
+      "path": "/token-list/yCurve.webp",
+      "fullname": "Curve.fi iearn pool token",
+      "favorite": 0
+    },
+    {
+      "name": "yDAIv2",
+      "path": "/token-list/yDAIv2.webp",
+      "fullname": "iearn DAIv2",
+      "favorite": 0
+    },
+    {
+      "name": "yDAIv3",
+      "path": "/token-list/yDAIv3.webp",
+      "fullname": "iearn DAI v3",
+      "favorite": 0
+    },
+    {
+      "name": "YETI",
+      "path": "/token-list/YETI.webp",
+      "fullname": "Yearn Ecosystem Token Index",
+      "favorite": 0
+    },
+    {
+      "name": "Yf-DAI",
+      "path": "/token-list/Yf-DAI.webp",
+      "fullname": "YfDAI.finance",
+      "favorite": 0
+    },
+    {
+      "name": "YFII",
+      "path": "/token-list/YFII.webp",
+      "fullname": "YFII.finance",
+      "favorite": 0
+    },
+    {
+      "name": "YFL",
+      "path": "/token-list/YFL.webp",
+      "fullname": "YFLink",
+      "favorite": 0
+    },
+    {
+      "name": "YFM",
+      "path": "/token-list/YFM.webp",
+      "fullname": "yfarm.finance",
+      "favorite": 0
+    },
+    {
+      "name": "YFV",
+      "path": "/token-list/YFV.webp",
+      "fullname": "YFValue",
+      "favorite": 0
+    },
+    {
+      "name": "YIELD",
+      "path": "/token-list/YIELD.webp",
+      "fullname": "Yield Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "YLD_APP",
+      "path": "/token-list/YLD_APP.webp",
+      "fullname": "Yield",
+      "favorite": 0
+    },
+    {
+      "name": "YOP",
+      "path": "/token-list/YOP.webp",
+      "fullname": "YOP",
+      "favorite": 0
+    },
+    {
+      "name": "yUSD",
+      "path": "/token-list/yUSD.webp",
+      "fullname": "yearn Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+      "favorite": 0
+    },
+    {
+      "name": "yUSDCv2",
+      "path": "/token-list/yUSDCv2.webp",
+      "fullname": "iearn USDC v2",
+      "favorite": 0
+    },
+    {
+      "name": "yUSDCv3",
+      "path": "/token-list/yUSDCv3.webp",
+      "fullname": "iearn USDC v3",
+      "favorite": 0
+    },
+    {
+      "name": "yUSDTv2",
+      "path": "/token-list/yUSDTv2.webp",
+      "fullname": "iearn USDT v2",
+      "favorite": 0
+    },
+    {
+      "name": "yUSDTv3",
+      "path": "/token-list/yUSDTv3.webp",
+      "fullname": "iearn USDT v3",
+      "favorite": 0
+    },
+    {
+      "name": "yveCRV-DAO",
+      "path": "/token-list/yveCRV-DAO.webp",
+      "fullname": "veCRV-DAO yVault",
+      "favorite": 0
+    },
+    {
+      "name": "YVS",
+      "path": "/token-list/YVS.webp",
+      "fullname": "YVS.Finance",
+      "favorite": 0
+    },
+    {
+      "name": "ZCN",
+      "path": "/token-list/ZCN.webp",
+      "fullname": "0chain",
+      "favorite": 0
+    },
+    {
+      "name": "ZCX",
+      "path": "/token-list/ZCX.webp",
+      "fullname": "ZEN Exchange Token",
+      "favorite": 0
+    },
+    {
+      "name": "ZEE",
+      "path": "/token-list/ZEE.webp",
+      "fullname": "ZeroSwapToken",
+      "favorite": 0
+    },
+    {
+      "name": "ZEFU",
+      "path": "/token-list/ZEFU.webp",
+      "fullname": "Zenfuse Trading Platform Token",
+      "favorite": 0
+    },
+    {
+      "name": "ZERO",
+      "path": "/token-list/ZERO.webp",
+      "fullname": "Zero.Exchange Token",
+      "favorite": 0
+    },
+    {
+      "name": "ZINU",
+      "path": "/token-list/ZINU.webp",
+      "fullname": "Zombie Inu",
+      "favorite": 0
+    },
+    {
+      "name": "ZKS",
+      "path": "/token-list/ZKS.webp",
+      "fullname": "Zks",
+      "favorite": 0
+    },
+    {
+      "name": "ZORA",
+      "path": "/token-list/ZORA.webp",
+      "fullname": "Zoracles",
+      "favorite": 0
+    },
+    {
+      "name": "ZRX",
+      "path": "/token-list/ZRX.webp",
+      "fullname": "0x Protocol",
+      "favorite": 0
+    },
+    {
+      "name": "zUSD",
+      "path": "/token-list/zUSD.webp",
+      "fullname": "Zerogoki USD"
+    }
+  ]
+}

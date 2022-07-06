@@ -1,0 +1,36 @@
+{
+  "name": "atola-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "node ./index.js -c ./json-server.json",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "mock": "node ./mock/index.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {},
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
